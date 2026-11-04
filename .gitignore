@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+data/*.csv
+data/*.txt
+data/*.joblib
+docs/
+PLAN.md
