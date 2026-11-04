@@ -1,0 +1,10 @@
+beautifulsoup4==4.15.0
+joblib==1.6.0
+numpy==2.5.4
+pandas==3.1.0
+python-whois==0.9.6
+requests==2.34.2
+requests-file==3.0.1
+scikit-learn==1.9.1
+soupsieve==3.0.4
+tldextract==5.4.0
