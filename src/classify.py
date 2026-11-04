@@ -1,4 +1,3 @@
-import sys
 import argparse
 import joblib
 import pandas as pd
@@ -12,6 +11,8 @@ def classify(url: str, deep: bool = False) -> dict:
     bundle = joblib.load(MODEL_PATH)
     clf, feature_cols = bundle["model"], bundle["feature_cols"]
 
+    #same feature function used during training, has to match exactly
+    #or the model gets columns it was never trained to read
     feats = extract_url_features(url)
     if deep:
         feats.update(fetch_content_features(url))
@@ -22,6 +23,8 @@ def classify(url: str, deep: bool = False) -> dict:
     proba = clf.predict_proba(X)[0]
     verdict = "PHISHING" if proba[1] >= 0.5 else "LEGITIMATE"
 
+    #note this is global feature importance, same list for every url
+    #not a real per-prediction explanation, that's coming with shap later
     importances = sorted(zip(feature_cols, clf.feature_importances_), key=lambda x: -x[1])
     top_features = [(name, row[name]) for name, _ in importances[:5]]
 

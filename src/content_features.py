@@ -1,7 +1,5 @@
-import hashlib
 import requests
 import tldextract
-from urllib.parse import urlparse, urljoin
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (phishing-detector-mvp research tool)"}
 TIMEOUT = 6
@@ -13,10 +11,9 @@ def _registered_domain(url: str) -> str:
 
 
 def fetch_content_features(url: str) -> dict:
-    """Best-effort content fetch. Returns neutral defaults on any failure
-    (dead link, timeout, blocked) so the pipeline never crashes on bad input.
-    This performs a direct HTTP GET; it is NOT the isolated sandbox described
-    in the proposal and should only be pointed at URLs you intend to inspect."""
+    #heads up, this uses a plain requests.get, not a sandboxed headless browser
+    #so it's fine for quick manual checks but not safe to run on a big batch of
+    #real phishing urls yet, that sandboxing is planned for a later iteration
     defaults = {
         "form_action_mismatch": 0,
         "favicon_present": 0,
@@ -29,6 +26,8 @@ def fetch_content_features(url: str) -> dict:
         html = resp.text
         page_domain = _registered_domain(resp.url)
     except Exception:
+        #dead link, timeout, blocked request, whatever, just return neutral defaults
+        #instead of crashing the whole pipeline over one bad url
         return defaults
 
     try:
@@ -37,6 +36,8 @@ def fetch_content_features(url: str) -> dict:
     except Exception:
         return defaults
 
+    #the actual strongest phishing signal, does the form send data somewhere
+    #other than the domain it's pretending to be
     forms = soup.find_all("form")
     mismatch = 0
     has_pw = 0
@@ -49,6 +50,8 @@ def fetch_content_features(url: str) -> dict:
         if form.find("input", {"type": "password"}):
             has_pw = 1
 
+    #how much of the page's css/js/images come from somewhere else
+    #phishing clones often borrow the real site's assets while hosting the shell elsewhere
     tags = soup.find_all(["script", "img", "link"])
     total = len(tags)
     external = 0
@@ -60,6 +63,8 @@ def fetch_content_features(url: str) -> dict:
                 external += 1
     ratio = (external / total) if total else 0.0
 
+    #just checks a favicon tag exists, doesn't compare it against a real brand's
+    #favicon yet, that hash comparison is planned for a later iteration
     favicon = 1 if soup.find("link", rel=lambda v: v and "icon" in v.lower()) else 0
 
     return {

@@ -25,9 +25,11 @@ def load_legit_urls(path=f"{DATA_DIR}/top-1m.csv", n=N_SAMPLES_PER_CLASS):
         reader = csv.reader(f)
         for rank, domain in reader:
             domains.append(domain)
+            #only read 5x what we need instead of the whole million row file, way faster
             if len(domains) >= remaining * 5:
                 break
 
+    #fixed seed so re-running this script gives the exact same dataset every time
     random.seed(42)
     sample = random.sample(domains, remaining)
     legit += [f"https://{d}" for d in sample]
@@ -37,6 +39,8 @@ def load_legit_urls(path=f"{DATA_DIR}/top-1m.csv", n=N_SAMPLES_PER_CLASS):
 
 def main():
     phishing = load_phishing_urls()
+    #keep both classes the same size, openphish's free feed is capped around 300
+    #so this just makes sure we never ask for more legit urls than we have phishing ones
     legit = load_legit_urls(n=min(N_SAMPLES_PER_CLASS, len(phishing)))
 
     rows = []
