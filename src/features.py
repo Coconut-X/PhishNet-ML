@@ -1,5 +1,11 @@
 import re
+import os
+import json
 import math
+import datetime
+import threading
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlparse
 import tldextract
 
@@ -82,22 +88,111 @@ def extract_url_features(url: str) -> dict:
     return features
 
 
-def extract_domain_age_days(url: str) -> int:
-    #whois lookups are slow and sometimes just fail (rate limits, redacted records etc)
-    #so this returns -1 on any failure instead of crashing the whole pipeline
+#-- domain age (whois) ------------------------------------------------------
+#whois is slow (a network round trip per domain) and flaky, so every answer is cached
+#in a json file. the cache stores the creation DATE, not the age in days, because an
+#age stored today would be wrong tomorrow, the age is worked out fresh on every read
+WHOIS_CACHE_PATH = "data/whois_cache.json"
+_whois_cache = None
+_cache_lock = threading.Lock()
+
+
+def registered_domain(url: str) -> str:
+    #paypal.com for https://secure.login.paypal.com/x, this is what whois is asked about
+    ext = tldextract.extract(url)
+    return ".".join(p for p in [ext.domain, ext.suffix] if p)
+
+
+def _load_whois_cache() -> dict:
+    global _whois_cache
+    if _whois_cache is None:
+        try:
+            with open(WHOIS_CACHE_PATH) as f:
+                _whois_cache = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            _whois_cache = {}
+    return _whois_cache
+
+
+def _save_whois_cache():
+    #write to a temp file then rename, so a crash mid-write can't leave a half written cache
+    os.makedirs(os.path.dirname(WHOIS_CACHE_PATH), exist_ok=True)
+    tmp = WHOIS_CACHE_PATH + ".tmp"
+    with _cache_lock, open(tmp, "w") as f:
+        json.dump(_whois_cache, f, indent=1, sort_keys=True)
+    os.replace(tmp, WHOIS_CACHE_PATH)
+
+
+def _query_creation_date(domain: str):
+    #returns (status, iso_date or None). "ok", "no_date" (record exists but the registrar
+    #hides the date) and "not_found" (domain isnt registered) are real answers and get
+    #cached. "error" (timeout, rate limit, parse failure) is transient so it is NOT cached,
+    #otherwise one bad moment would poison that domain forever
     try:
         import whois
-        import datetime
-        ext = tldextract.extract(url)
-        full_domain = ".".join(p for p in [ext.domain, ext.suffix] if p)
-        w = whois.whois(full_domain)
-        created = w.creation_date
-        #some registrars return a list of dates instead of one, just take the first
-        if isinstance(created, list):
-            created = created[0]
-        if created is None:
-            return -1
-        delta = datetime.datetime.now() - created.replace(tzinfo=None)
-        return max(delta.days, 0)
+        from whois.exceptions import WhoisDomainNotFoundError, UnknownTldError
     except Exception:
+        return "error", None
+    try:
+        w = whois.whois(domain)
+    except WhoisDomainNotFoundError:
+        return "not_found", None
+    except UnknownTldError:
+        return "no_date", None
+    except Exception:
+        return "error", None
+    created = w.get("creation_date")
+    if not isinstance(created, list):
+        created = [created]
+    #some registrars return several dates, take the earliest. drop tzinfo so naive and
+    #aware datetimes can be compared, day precision is all we need
+    dates = [c.replace(tzinfo=None) for c in created if isinstance(c, datetime.datetime)]
+    if not dates:
+        return "no_date", None
+    return "ok", min(dates).date().isoformat()
+
+
+def _lookup_and_cache(domain: str) -> str:
+    cache = _load_whois_cache()
+    status, created = _query_creation_date(domain)
+    if status != "error":
+        with _cache_lock:
+            cache[domain] = {"status": status, "created": created}
+    return status
+
+
+def extract_domain_age_days(url: str) -> int:
+    #age of the registered domain in days, or -1 if unknown (not registered, hidden date,
+    #lookup failed). -1 instead of raising so one bad domain cant crash the whole pipeline
+    domain = registered_domain(url)
+    if not domain:
         return -1
+    cache = _load_whois_cache()
+    if domain not in cache:
+        if _lookup_and_cache(domain) == "error":
+            return -1
+        _save_whois_cache()
+    created = cache.get(domain, {}).get("created")
+    if created is None:
+        return -1
+    age = datetime.date.today() - datetime.date.fromisoformat(created)
+    return max(age.days, 0)
+
+
+def prefetch_domain_ages(urls, workers: int = 6) -> Counter:
+    #looks up every not-yet-cached domain in parallel before the build loop runs.
+    #lookups are mostly waiting on the network so threads help a lot (600 lookups at ~2s
+    #each is 20 min one by one). kept to a few workers so the whois servers dont throttle us
+    cache = _load_whois_cache()
+    todo = sorted({d for d in map(registered_domain, urls) if d and d not in cache})
+    print(f"whois: {len(todo)} domains to look up ({len(cache)} already cached)")
+    results = Counter()
+    if todo:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            for n, status in enumerate(ex.map(_lookup_and_cache, todo), 1):
+                results[status] += 1
+                if n % 50 == 0:
+                    print(f"  {n}/{len(todo)} done")
+                    _save_whois_cache()
+        _save_whois_cache()
+    return results

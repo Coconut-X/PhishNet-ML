@@ -1,7 +1,7 @@
 import csv
 import random
 import pandas as pd
-from features import extract_url_features
+from features import extract_url_features, extract_domain_age_days, prefetch_domain_ages
 from curated_legit_urls import LOGIN_URLS
 
 DATA_DIR = "data"
@@ -43,15 +43,21 @@ def main():
     #so this just makes sure we never ask for more legit urls than we have phishing ones
     legit = load_legit_urls(n=min(N_SAMPLES_PER_CLASS, len(phishing)))
 
+    #look up all the domain ages in parallel first, results land in data/whois_cache.json
+    #so re-running this script (or adding features later) doesnt hit whois again
+    prefetch_domain_ages(phishing + legit)
+
     rows = []
     for url in phishing:
         feats = extract_url_features(url)
+        feats["domain_age_days"] = extract_domain_age_days(url)
         feats["url"] = url
         feats["label"] = 1
         rows.append(feats)
 
     for url in legit:
         feats = extract_url_features(url)
+        feats["domain_age_days"] = extract_domain_age_days(url)
         feats["url"] = url
         feats["label"] = 0
         rows.append(feats)
@@ -59,6 +65,10 @@ def main():
     df = pd.DataFrame(rows)
     df.to_csv(f"{DATA_DIR}/dataset.csv", index=False)
     print(f"built dataset: {len(df)} rows ({(df.label==1).sum()} phishing, {(df.label==0).sum()} legit)")
+    #-1 means whois gave no usable date. if this is lopsided between the classes the model
+    #can learn "unknown age = phishing", so it is worth looking at every time
+    unknown = df[df.domain_age_days == -1].groupby("label").size()
+    print(f"domain age unknown: {unknown.get(1, 0)} phishing, {unknown.get(0, 0)} legit")
     print(f"{len(LOGIN_URLS)} of the legit rows are real login pages, rest are tranco homepages")
     print(f"saved to {DATA_DIR}/dataset.csv")
 

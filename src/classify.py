@@ -1,7 +1,7 @@
 import argparse
 import joblib
 import pandas as pd
-from features import extract_url_features
+from features import extract_url_features, extract_domain_age_days
 from content_features import fetch_content_features
 
 MODEL_PATH = "data/model.joblib"
@@ -14,6 +14,9 @@ def classify(url: str, deep: bool = False) -> dict:
     #same feature function used during training, has to match exactly
     #or the model gets columns it was never trained to read
     feats = extract_url_features(url)
+    #domain age is a model feature, so it has to be computed here too. without it the
+    #row.get(col, 0) below would silently feed 0 days old, which looks like a brand new domain
+    feats["domain_age_days"] = extract_domain_age_days(url)
     if deep:
         feats.update(fetch_content_features(url))
 
