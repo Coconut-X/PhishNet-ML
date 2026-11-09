@@ -6,15 +6,20 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 
 DATA_PATH = "data/dataset.csv"
 MODEL_PATH = "data/model.joblib"
+DEEP_MODEL_PATH = "data/model_deep.joblib"
+
+#these only mean something when the page actually loaded (fetch_ok == 1), otherwise
+#they are all 0. fetch_ok itself is never a feature: most dead pages are phishing
+#takedowns, so the model would just learn "page is dead = phishing"
+CONTENT_COLS = ["form_action_mismatch", "favicon_brand_match", "external_resource_ratio",
+                "has_password_field"]
 
 
-def main():
-    df = pd.read_csv(DATA_PATH)
-    feature_cols = [c for c in df.columns if c not in ("url", "label")]
+def train(df, feature_cols, model_path):
     X = df[feature_cols]
     y = df["label"]
 
-    #stratify keeps the 50/50 phishing/legit split the same in both train and test
+    #stratify keeps the phishing/legit ratio the same in both train and test
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.25, random_state=42, stratify=y
     )
@@ -47,8 +52,24 @@ def main():
 
     #saving feature_cols along with the model so classify.py builds the input
     #row in the exact same column order the model was trained on
-    joblib.dump({"model": clf, "feature_cols": feature_cols}, MODEL_PATH)
-    print(f"\nSaved model to {MODEL_PATH}")
+    joblib.dump({"model": clf, "feature_cols": feature_cols}, model_path)
+    print(f"\nSaved model to {model_path}")
+
+
+def main():
+    df = pd.read_csv(DATA_PATH)
+    url_cols = [c for c in df.columns if c not in ["url", "label", "fetch_ok"] + CONTENT_COLS]
+
+    #fast model: url + domain age features, every row, no page needs to be fetched
+    print(f"=== fast model: {len(url_cols)} url features, {len(df)} rows ===\n")
+    train(df, url_cols, MODEL_PATH)
+
+    #deep model: adds the page content features, but only the rows whose page loaded
+    loaded = df[df.fetch_ok == 1]
+    counts = loaded.label.value_counts()
+    print(f"\n\n=== deep model: {len(url_cols) + len(CONTENT_COLS)} features, "
+          f"{len(loaded)} rows ({counts.get(1, 0)} phishing, {counts.get(0, 0)} legit) ===\n")
+    train(loaded, url_cols + CONTENT_COLS, DEEP_MODEL_PATH)
 
 
 if __name__ == "__main__":

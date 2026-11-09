@@ -1,0 +1,138 @@
+{
+ "adobe": {
+  "domains": [
+   "adobe.com"
+  ],
+  "hash": "ce3929c6bb888e39"
+ },
+ "amazon": {
+  "domains": [
+   "amazon.com",
+   "media-amazon.com",
+   "amazon.ca",
+   "amazon.co.jp",
+   "amazon.co.uk",
+   "amazon.de",
+   "amazon.fr",
+   "amazon.es",
+   "amazon.it",
+   "amazon.in",
+   "amazon.com.au",
+   "amazon.com.br",
+   "amazon.com.mx"
+  ],
+  "hash": "af207acaab342eca"
+ },
+ "apple": {
+  "domains": [
+   "apple.com",
+   "icloud.com"
+  ],
+  "hash": "b4c6cf61309b65cc"
+ },
+ "bankofamerica": {
+  "domains": [
+   "bankofamerica.com"
+  ],
+  "hash": "ee1991e4581ea5e9"
+ },
+ "chase": {
+  "domains": [
+   "chase.com"
+  ],
+  "hash": "feede0c19592850e"
+ },
+ "dhl": {
+  "domains": [
+   "dhl.com"
+  ],
+  "hash": "bca4c34b3cb4c34b"
+ },
+ "ebay": {
+  "domains": [
+   "ebay.com"
+  ],
+  "hash": "b9ec64b3b2326266"
+ },
+ "facebook": {
+  "domains": [
+   "facebook.com",
+   "fbcdn.net"
+  ],
+  "hash": "8c33f467e56c9093"
+ },
+ "google": {
+  "domains": [
+   "google.com",
+   "gstatic.com",
+   "youtube.com",
+   "android.com"
+  ],
+  "hash": "acb4b14bc7949c96"
+ },
+ "instagram": {
+  "domains": [
+   "instagram.com"
+  ],
+  "hash": "d03eaa2f2b7c3c30"
+ },
+ "linkedin": {
+  "domains": [
+   "linkedin.com"
+  ],
+  "hash": "ee6b39849c9ac465"
+ },
+ "microsoft": {
+  "domains": [
+   "microsoft.com",
+   "live.com",
+   "office.com",
+   "microsoftonline.com"
+  ],
+  "hash": "994c19b3e64c19bb"
+ },
+ "netflix": {
+  "domains": [
+   "netflix.com"
+  ],
+  "hash": "e939c86ccc6cca39"
+ },
+ "paypal": {
+  "domains": [
+   "paypal.com"
+  ],
+  "hash": "b861879ece939cc1"
+ },
+ "roblox": {
+  "domains": [
+   "roblox.com"
+  ],
+  "hash": "96c7795866339991"
+ },
+ "steam": {
+  "domains": [
+   "steampowered.com",
+   "steamcommunity.com",
+   "steamstatic.com"
+  ],
+  "hash": "fe38a3e8d405c1d9"
+ },
+ "wellsfargo": {
+  "domains": [
+   "wellsfargo.com"
+  ],
+  "hash": "c0b93f46c4bb91d1"
+ },
+ "whatsapp": {
+  "domains": [
+   "whatsapp.com"
+  ],
+  "hash": "80fe2f67319865b1"
+ },
+ "yahoo": {
+  "domains": [
+   "yahoo.com"
+  ],
+  "hash": "cf9933662ccc394c"
+ }
+}

@@ -2,6 +2,7 @@ import csv
 import random
 import pandas as pd
 from features import extract_url_features, extract_domain_age_days, prefetch_domain_ages
+from content_features import fetch_content_features, prefetch_content
 from curated_legit_urls import LOGIN_URLS
 
 DATA_DIR = "data"
@@ -47,10 +48,16 @@ def main():
     #so re-running this script (or adding features later) doesnt hit whois again
     prefetch_domain_ages(phishing + legit)
 
+    #same for the page content, but this one loads every page in the docker sandbox
+    #(see src/sandbox) and takes a while, results go in data/content_cache.json
+    prefetch_content(phishing + legit)
+
+
     rows = []
     for url in phishing:
         feats = extract_url_features(url)
         feats["domain_age_days"] = extract_domain_age_days(url)
+        feats.update(fetch_content_features(url))
         feats["url"] = url
         feats["label"] = 1
         rows.append(feats)
@@ -58,6 +65,7 @@ def main():
     for url in legit:
         feats = extract_url_features(url)
         feats["domain_age_days"] = extract_domain_age_days(url)
+        feats.update(fetch_content_features(url))
         feats["url"] = url
         feats["label"] = 0
         rows.append(feats)
@@ -69,6 +77,10 @@ def main():
     #can learn "unknown age = phishing", so it is worth looking at every time
     unknown = df[df.domain_age_days == -1].groupby("label").size()
     print(f"domain age unknown: {unknown.get(1, 0)} phishing, {unknown.get(0, 0)} legit")
+    #dead pages get fetch_ok = 0, if this is very lopsided between the classes then
+    #"page is alive" is carrying information the model shouldnt get to use
+    alive = df[df.fetch_ok == 1].groupby("label").size()
+    print(f"pages that loaded: {alive.get(1, 0)} phishing, {alive.get(0, 0)} legit")
     print(f"{len(LOGIN_URLS)} of the legit rows are real login pages, rest are tranco homepages")
     print(f"saved to {DATA_DIR}/dataset.csv")
 

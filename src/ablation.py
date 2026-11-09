@@ -7,6 +7,8 @@ from features import registered_domain
 
 DATA_PATH = "data/dataset.csv"
 FEATURE = "domain_age_days"
+CONTENT = ["form_action_mismatch", "favicon_brand_match", "external_resource_ratio",
+           "has_password_field"]
 
 
 def forest():
@@ -40,7 +42,8 @@ def main():
     df = pd.read_csv(DATA_PATH)
     y = df["label"]
     groups = df["url"].map(registered_domain)
-    all_cols = [c for c in df.columns if c not in ("url", "label")]
+    #content columns are only filled in for pages that loaded, so they get their own test
+    all_cols = [c for c in df.columns if c not in ["url", "label", "fetch_ok"] + CONTENT]
     without = [c for c in all_cols if c != FEATURE]
 
     print(f"{len(df)} rows, {groups.nunique()} distinct registered domains "
@@ -56,6 +59,30 @@ def main():
 
     print(f"\nOnly {FEATURE} on its own, grouped:")
     report(FEATURE + " alone", grouped_cv(df[[FEATURE]], y, groups))
+
+    content_experiment(df)
+
+
+def content_experiment(df):
+    #do the page content features help? only the rows whose page actually loaded have
+    #real content values, so both models are tested on exactly those rows
+    loaded = df[df.fetch_ok == 1]
+    y = loaded["label"]
+    groups = loaded["url"].map(registered_domain)
+    url_cols = [c for c in df.columns if c not in ["url", "label", "fetch_ok"] + CONTENT]
+
+    print(f"\n--- page content features, on the {len(loaded)} rows that loaded "
+          f"({(y == 1).sum()} phishing, {(y == 0).sum()} legit, {groups.nunique()} domains) ---")
+    print("Plain stratified 5-fold, 5 repeats:")
+    report("url features only", plain_cv(loaded[url_cols], y))
+    report("url + content features", plain_cv(loaded[url_cols + CONTENT], y))
+    print("Grouped by registered domain:")
+    report("url features only", grouped_cv(loaded[url_cols], y, groups))
+    report("url + content features", grouped_cv(loaded[url_cols + CONTENT], y, groups))
+    report("content features alone", grouped_cv(loaded[CONTENT], y, groups))
+
+    print("\nmean of each content feature by class (loaded rows):")
+    print(loaded.groupby("label")[CONTENT].mean().round(3).to_string())
 
 
 if __name__ == "__main__":

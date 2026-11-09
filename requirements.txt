@@ -1,10 +1,17 @@
 beautifulsoup4==4.15.0
+ImageHash==4.3.2
 joblib==1.6.0
 numpy==2.5.4
 pandas==3.1.0
+pillow==13.0.0
 python-whois==0.9.6
-requests==2.34.2
+PyWavelets==1.10.0
 requests-file==3.0.1
+requests==2.34.2
 scikit-learn==1.9.1
+scipy==1.18.1
 soupsieve==3.0.4
 tldextract==5.4.0
+
+# playwright is not listed on purpose: it runs inside the docker image (src/sandbox/Dockerfile,
+# pinned to 1.64.1 there), the host code never imports it

@@ -723,6 +723,10 @@
   "created": "1994-02-18",
   "status": "ok"
  },
+ "invalid": {
+  "created": null,
+  "status": "no_date"
+ },
  "ipify.org": {
   "created": "2014-01-05",
   "status": "ok"
