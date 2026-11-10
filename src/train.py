@@ -1,8 +1,12 @@
 import joblib
+import numpy as np
 import pandas as pd
+import shap
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import (StratifiedGroupKFold, cross_val_score,
+                                     train_test_split)
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
+from features import registered_domain
 
 DATA_PATH = "data/dataset.csv"
 MODEL_PATH = "data/model.joblib"
@@ -13,6 +17,10 @@ DEEP_MODEL_PATH = "data/model_deep.joblib"
 #takedowns, so the model would just learn "page is dead = phishing"
 CONTENT_COLS = ["form_action_mismatch", "favicon_brand_match", "external_resource_ratio",
                 "has_password_field"]
+
+#still built into dataset.csv but not used by either model. grouped cv showed no gain from
+#it and its biggest effect came from the "unknown" value (-1), see docs/iteration-04
+DROPPED_COLS = ["domain_age_days"]
 
 
 def train(df, feature_cols, model_path):
@@ -34,6 +42,14 @@ def train(df, feature_cols, model_path):
     cv_scores = cross_val_score(clf, X, y, cv=5, scoring="f1")
     print(f"5-fold CV F1: {cv_scores.mean():.3f} (+/- {cv_scores.std():.3f})")
 
+    #same thing but a registered domain never sits in both train and test. a lot of rows
+    #share a domain (pages.dev, blogspot.com ...) so the normal cv is too optimistic, this
+    #is the number to trust more
+    groups = df["url"].map(registered_domain)
+    gcv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=42)
+    g_scores = cross_val_score(clf, X, y, cv=gcv, groups=groups, scoring="f1")
+    print(f"5-fold CV F1, grouped by domain: {g_scores.mean():.3f} (+/- {g_scores.std():.3f})")
+
     y_pred = clf.predict(X_test)
     y_proba = clf.predict_proba(X_test)[:, 1]
 
@@ -43,12 +59,21 @@ def train(df, feature_cols, model_path):
     print(confusion_matrix(y_test, y_pred))
     print(f"ROC-AUC: {roc_auc_score(y_test, y_proba):.3f}")
 
-    #this is global importance, averaged over the whole dataset, not per prediction
-    #swapping this for shap values is planned for a later iteration
-    importances = sorted(zip(feature_cols, clf.feature_importances_), key=lambda x: -x[1])
-    print("\nFeature importances:")
-    for name, imp in importances:
-        print(f"  {name:25s} {imp:.3f}")
+    #shap: for every row, how many probability points each feature added or removed.
+    #this ranks features by the average size of that push (mean of the absolute value, so
+    #a feature that pushes up in some rows and down in others still counts), over all the
+    #rows of this model. "high -> phishing" is the sign of the correlation between the
+    #feature's value and its push. classify.py uses the same numbers for a single url
+    sv = shap.TreeExplainer(clf).shap_values(X)[..., 1]
+    mean_abs = np.abs(sv).mean(axis=0)
+    print("\nFeature importance (mean |SHAP|, in probability points):")
+    for i in np.argsort(-mean_abs):
+        if X.iloc[:, i].nunique() > 1 and sv[:, i].std() > 0:
+            corr = np.corrcoef(X.iloc[:, i], sv[:, i])[0, 1]
+            direction = "high -> phishing" if corr > 0 else "high -> legit"
+        else:
+            direction = "-"
+        print(f"  {feature_cols[i]:25s} {mean_abs[i]:.3f}   {direction}")
 
     #saving feature_cols along with the model so classify.py builds the input
     #row in the exact same column order the model was trained on
@@ -58,9 +83,10 @@ def train(df, feature_cols, model_path):
 
 def main():
     df = pd.read_csv(DATA_PATH)
-    url_cols = [c for c in df.columns if c not in ["url", "label", "fetch_ok"] + CONTENT_COLS]
+    skip = ["url", "label", "fetch_ok"] + CONTENT_COLS + DROPPED_COLS
+    url_cols = [c for c in df.columns if c not in skip]
 
-    #fast model: url + domain age features, every row, no page needs to be fetched
+    #fast model: url features, every row, no page needs to be fetched
     print(f"=== fast model: {len(url_cols)} url features, {len(df)} rows ===\n")
     train(df, url_cols, MODEL_PATH)
 

@@ -69,7 +69,8 @@ def content_experiment(df):
     loaded = df[df.fetch_ok == 1]
     y = loaded["label"]
     groups = loaded["url"].map(registered_domain)
-    url_cols = [c for c in df.columns if c not in ["url", "label", "fetch_ok"] + CONTENT]
+    #same url features the models use now, domain age is left out (see iteration 4 doc)
+    url_cols = [c for c in df.columns if c not in ["url", "label", "fetch_ok", FEATURE] + CONTENT]
 
     print(f"\n--- page content features, on the {len(loaded)} rows that loaded "
           f"({(y == 1).sum()} phishing, {(y == 0).sum()} legit, {groups.nunique()} domains) ---")

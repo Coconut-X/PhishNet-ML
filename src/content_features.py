@@ -42,6 +42,13 @@ _cache = None
 _lock = threading.Lock()
 
 
+class SandboxError(RuntimeError):
+    #docker itself failed (not installed, no permission, daemon down...), which says
+    #nothing about the page. kept separate from "page didnt load" on purpose, otherwise a
+    #docker problem would quietly turn every page into a dead one
+    pass
+
+
 def build_image():
     subprocess.run(["docker", "build", "-t", IMAGE, SANDBOX_DIR], check=True)
 
@@ -169,6 +176,8 @@ def _save_cache():
 
 def _fetch(url, allow_private=False):
     data = run_sandbox(url, allow_private)
+    if data.get("infra"):
+        raise SandboxError(data["error"])
     feats = features_from_page(url, data) if data.get("ok") else dict(NO_CONTENT)
     return feats, data
 
@@ -176,10 +185,8 @@ def _fetch(url, allow_private=False):
 def _fetch_and_cache(url, allow_private=False):
     cache = _load_cache()
     feats, data = _fetch(url, allow_private)
-    #docker failing says nothing about the page, so dont remember that
-    if not data.get("infra"):
-        with _lock:
-            cache[url] = {"features": feats, "error": data.get("error", "")}
+    with _lock:
+        cache[url] = {"features": feats, "error": data.get("error", "")}
     return feats
 
 
