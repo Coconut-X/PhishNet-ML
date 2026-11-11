@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Warning: possible phishing page</title>
+  <style>
+    body { font-family: sans-serif; max-width: 640px; margin: 60px auto; padding: 0 16px; background: #fff5f5; color: #222; }
+    h1 { color: #b00020; }
+    code { word-break: break-all; background: #fff; padding: 2px 4px; }
+    button { padding: 8px 16px; margin-right: 8px; font-size: 15px; cursor: pointer; }
+    #back { background: #b00020; color: #fff; border: 0; }
+    #proceed { background: #fff; border: 1px solid #888; }
+  </style>
+</head>
+<body>
+  <h1>This page may be a phishing site</h1>
+  <p>The detector flagged <code id="url"></code></p>
+  <p id="prob"></p>
+  <p>Main reasons (positive numbers pushed towards phishing):</p>
+  <ul id="why"></ul>
+  <button id="back">Go back</button>
+  <button id="proceed">Proceed anyway</button>
+  <script src="warning.js"></script>
+</body>
+</html>

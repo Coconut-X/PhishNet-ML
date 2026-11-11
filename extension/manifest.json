@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Detector",
+  "version": "0.1.0",
+  "description": "Checks each page you open against a local phishing detector and warns before you use a flagged one.",
+  "permissions": ["webNavigation", "storage", "tabs", "activeTab"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Phishing Detector", "default_popup": "popup.html" }
+}
