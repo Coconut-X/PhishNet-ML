@@ -1,0 +1,8 @@
+# demo urls, only ever scored as text by the backend, nobody opens the phishing ones
+# run: python demo/run_cases.py   (backend must be running)
+https://www.google.com/
+https://github.com/
+http://localhost:8000/login.html
+http://paypal-secure-login.verify-account.pages.dev/login.php
+https://vemtasbobinaj.com/login.html
+https://vemtasbobinaj.com/otp.html

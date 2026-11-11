@@ -59,6 +59,12 @@ def min_brand_distance(domain: str) -> int:
 
 
 def extract_url_features(url: str) -> dict:
+    #a browser always sends https://site.com/ with the slash, the tranco urls in the
+    #dataset had none, so the model learned "has a / path = phishing". treat a lone
+    #trailing slash as no path so both spellings give the same features
+    if url.endswith("/") and urlparse(url if "://" in url else "http://" + url).path == "/" \
+            and "?" not in url and "#" not in url:
+        url = url[:-1]
     #urlparse needs a scheme to work right, so add one if it's missing
     parsed = urlparse(url if "://" in url else "http://" + url)
     ext = tldextract.extract(url)
