@@ -30,11 +30,11 @@ Chrome: `chrome://extensions`, Developer mode, Load unpacked, pick `extension/`.
 | Failure | none | falls back to fast if Docker or the page is unavailable |
 
 The deep model scores a little higher on paper, but it trained on a third of the data and only 208 of 600 pages
-load, so I would not claim it is better. Its content features rarely fire (see Iteration 3). The fast path is
+load, so I would not claim it is better. Its content features rarely fire (see `docs/security-analysis.md`). The fast path is
 the one that suits real-time use, which is why the extension checks every navigation with it and keeps deep
 scan as a manual button.
 
 ## Limits
 
 `onBeforeNavigate` cannot block a navigation, it can only redirect shortly after the page starts loading.
-Untested in a real browser so far. More in `docs/iteration-08-chrome-extension.md`.
+Tested in Chromium 149 (warning page, Proceed anyway, backend page skipped). Not tested in Google Chrome itself. See `docs/extension-workflow.md`.

@@ -38,13 +38,25 @@ python src/classify.py https://example.com --deep     # also loads the page in t
 
 Output: verdict, confidence, and the features that pushed the decision (SHAP).
 
+## Evaluation demo (terminal)
+
+```bash
+python src/evaluate.py                       # metrics, charts in reports/, and the reasons for the demo URLs
+python src/evaluate.py https://some.url/x    # or explain your own URLs
+python src/validate_holdout.py               # test on a fresh feed (needs data/openphish_fresh.txt)
+```
+Prints precision, recall, F1, ROC-AUC and the confusion matrix (held-out and grouped CV), then for each URL
+the verdict and the SHAP reasons as bars. Saves `reports/metrics.png` and `reports/explanations.png`.
+
 ## Optional: backend and Chrome extension
 
 ```bash
 pip install -r backend/requirements.txt
 python backend/api.py            # http://127.0.0.1:5000, endpoints /scan/fast and /scan/deep
 ```
-Load `extension/` as an unpacked extension in `chrome://extensions` (developer mode).
+Load `extension/` as an unpacked extension in `chrome://extensions` (developer mode), or run
+`bash demo/launch_chromium.sh`. The step-by-step user story is in `docs/extension-workflow.md`. Docs:
+`docs/architecture.md`, `docs/security-analysis.md`, `docs/data-sources.md`.
 
 ## Layout
 

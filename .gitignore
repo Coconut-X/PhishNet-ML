@@ -4,5 +4,10 @@ __pycache__/
 data/*.csv
 data/*.txt
 data/*.joblib
-docs/
+reports/
+
+# personal notes and the proposals, not part of the submission
 PLAN.md
+docs/iteration-*.md
+docs/README.md
+docs/*.pdf
