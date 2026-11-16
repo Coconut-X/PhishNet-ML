@@ -34,7 +34,7 @@ def train(df, feature_cols, model_path):
 
     #random forest over a single tree because one tree on 600 rows overfits badly
     #max_depth=10 caps how deep each tree can go so it cant just memorize the training rows
-    clf = RandomForestClassifier(n_estimators=200, max_depth=10, random_state=42)
+    clf = RandomForestClassifier(n_estimators=200, max_depth=10, random_state=42, class_weight="balanced")
     clf.fit(X_train, y_train)
 
     #5 fold cv on top of the train/test split, gives a more stable score than

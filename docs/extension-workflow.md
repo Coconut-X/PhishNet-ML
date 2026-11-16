@@ -18,8 +18,14 @@ sandbox on the backend.
 1. Sam types `https://github.com/` into the address bar and presses Enter.
 2. Chrome fires `webNavigation.onBeforeNavigate`. The background script sends the URL to `/scan/fast`
    (URL features only, about 0.15 s).
-3. Verdict LEGITIMATE. The extension does nothing. The page loads normally. Sam notices nothing, the
+3. Verdict LEGITIMATE (big well-known sites are not even run through the model). The extension does nothing. The page loads normally. Sam notices nothing, the
    toolbar badge stays empty.
+
+## Story 1b: a borderline page
+
+For an unknown site the model may answer SUSPICIOUS (probability 0.5 to 0.7). The page loads normally and nothing
+is shown on navigation. Sam can open the popup to see the SUSPICIOUS verdict and the reasons, and run a deep scan.
+Only PHISHING (0.7 and up) triggers the warning page.
 
 ## Story 2: a phishing link
 

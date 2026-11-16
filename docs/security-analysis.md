@@ -5,42 +5,69 @@ from `python src/train.py` on the current `dataset.csv` (300 phishing, 300 legit
 
 ## 1. Evaluation metrics
 
+Training data: 300 phishing URLs (OpenPhish) and 451 legit URLs: 51 curated login pages, about 300 real URLs
+crawled from top sites (homepage as a browser lands on it, plus real internal links with paths and queries),
+and 100 bare Tranco homepages. Training uses `class_weight="balanced"`.
+
 Fast model (13 URL features):
 
 | Metric | Value |
 |---|---|
-| Held-out test (150 rows) accuracy | 0.97 |
-| Precision / recall, phishing | 0.95 / 1.00 |
-| Precision / recall, legit | 1.00 / 0.95 |
-| ROC-AUC | 0.996 |
-| 5-fold CV F1, plain | 0.937 (+/- 0.118) |
-| 5-fold CV F1, **grouped by domain** | **0.975 (+/- 0.013)** |
+| Held-out test (188 rows) accuracy | 0.91 |
+| Precision / recall / F1, phishing | 0.86 / 0.92 / 0.89 |
+| ROC-AUC | 0.963 |
+| 5-fold CV F1, plain | 0.878 (+/- 0.048) |
+| 5-fold CV F1, **grouped by domain** | **0.815 (+/- 0.044)** |
 
-Deep model (17 features, 208 rows): test accuracy 0.96, grouped CV F1 0.983 (+/- 0.023).
+Deep model (17 features, 290 rows): test accuracy 0.95 (73 rows, noisy), grouped CV F1 0.796 (+/- 0.136).
 
-**Which number to trust.** The held-out test split shares registered domains with the training split
-(300 phishing rows sit on only 94 domains), so it is optimistic. The grouped CV keeps a domain on one
-side only, and is the number I would quote. The plain CV has one unexplained bad fold (0.702), which
-is why its spread is so large. A test on fresh data (`src/validate_holdout.py`): 98% accuracy (1 false positive, 9 phishing missed), but the legit set was bare homepages; a login-path stress test flagged up to 100% of legit domains.
+**Which number to trust.** The grouped CV (a domain never in both train and test) is the honest one: about 0.82
+F1. The held-out split shares domains with training and is optimistic.
+
+**Fresh data** (`src/validate_holdout.py`): a new OpenPhish feed (300 URLs, none in training) and 723 real legit
+URLs crawled from sites ranked 2000 and below, which share no site with training. Fast model:
+
+| Threshold | Phishing caught | Real legit pages flagged |
+|---|---|---|
+| 0.5 | 86% (259 of 300) | 9.8% (71 of 723) |
+| 0.7 (used for warnings) | 77% (230 of 300) | 3.3% (24 of 723) |
+
+182 of the 300 fresh phishing URLs sit on domains already seen in training (`pages.dev` and similar), so the
+catch rate is flattering. On unseen phishing domains only, accuracy is lower.
+
+**Earlier, much better numbers were not real.** The first versions scored 0.97 to 1.0 because the legit class
+was only bare domains (`https://google.com`) while phishing URLs were longer, had `www.`, subdomains, paths and
+queries. The model learned "looks like a normal browser URL = phishing". It was found when the Chrome extension
+flagged everything a person browsed: a Google search for "can cats drink milk" (152 characters because of its
+query string) was flagged as phishing, and so was an ordinary `www.` homepage of a new, harmless site. Fixes:
+treat a lone trailing `/` and a leading `www.` as nothing, leave the query string out of the length, dots and
+path features, and add real crawled legit URLs. The scores dropped to what they are now, which is the honest
+level of a URL-only model.
 
 ## 2. False positives and false negatives
 
-Confusion matrix on the test set: 72 true legit, **3 false positives**, **2 false negatives**, 73 true phishing.
+Test set confusion matrix: 102 legit right, **11 false positives**, **6 false negatives**, 69 phishing caught.
 
-**False positives (legit flagged as phishing)**: `booking.com/sign-in.html`, `outlook.live.com/owa/` and
-`hbomax.com/sign-in`. They are real login pages. Their URLs are long and deep, which is what the model learned
-as phishing, and nothing in the URL says they are real. This is the costly error for a user: a blocked login.
+**False positives** are mostly real login or account pages with deep paths: `my.chase.com/`,
+`outlook.live.com/owa/`, `login.epicgames.com/`, `login.opendns.com/?return_to=...`,
+`cloud.digitalocean.com/registrations/new`. These look like phishing by URL shape, and nothing in the string
+says they are real. A blocked login is the costly error for a user.
 
-**False negatives (phishing let through)**: `in-echallan.fun/` and `duck2store.com/`. Both are short, bare-domain
-URLs with nothing suspicious in the string. On the fresh feed the model missed 9 of 300, nearly all of the same
-kind: `https://btctrz.com/`, `https://otbtaw.cn/`, `https://webtrz.com/` (scores near 0). A URL-only model cannot
-see these. Only the page content could, and that did not work well enough (the content-features experiment).
+**False negatives** are phishing on short, clean-looking URLs, for example `https://www.weqweqw.com/` and
+`https://sarkariresult.com.cm/`. On the fresh feed the model also misses `https://otbtaw.cn/`,
+`https://califlaw.vip/` and `https://280082365756.com/`. A URL-only model cannot see these. Only the page could,
+and the content features did not help enough in the experiment.
 
-Other reasons it will miss in practice:
-- Phishing on short, clean URLs (a hacked small site, `evil.com/a`) looks like legit to a model that
-  leans on `path_length` and `url_length`.
-- The dataset has no phishing that mimics the curated legit login pages closely.
-- The test set is the same distribution as training; the fresh feed (`validate_holdout.py`) is the better guide.
+**How the product handles this.** The verdict has three levels: LEGITIMATE below 0.5, SUSPICIOUS from 0.5 to 0.7
+(shown in the popup, page not blocked), PHISHING at 0.7 and up (warning page). The 0.7 cut-off was chosen from
+grouped CV on training data, not from the fresh set. The backend also skips the model for the 2000 most popular
+sites (shared hosting platforms such as `github.io`, `pages.dev` and `blogspot.com` are excluded, so they are
+always scored), since a URL model that flags a Google search is unusable in a browser. This is a pragmatic layer,
+and it hides model errors on big sites, so the model numbers above are measured without it.
+
+**Not a new-domain detector.** Domain age is not used by the model (it was dropped), so a recently registered
+domain is not flagged for being new. A new harmless site can still be scored as suspicious if its URL shape looks
+like the phishing training examples. The model never reads the page unless the deep scan is used.
 
 ## 3. Shortcuts the model learned
 

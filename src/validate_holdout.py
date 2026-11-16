@@ -21,6 +21,13 @@ def fresh_phishing(train_urls):
     return urls
 
 
+def crawled_legit(train_domains):
+    #real urls from sites outside the training sample (src/collect_legit_urls.py, ranks 2000+),
+    #homepages as a browser sees them plus real internal pages with paths and queries
+    return [u for u in read_lines(f"{DATA_DIR}/legit_crawled_val.txt")
+            if registered_domain(u) not in train_domains]
+
+
 def fresh_legit(train_domains, n=N_LEGIT):
     #the training sample came from the top ~1500, so look further down the list
     #(rank 2000 to 20000) and skip any domain already used
@@ -54,8 +61,10 @@ def main():
     train_domains = {registered_domain(u) for u in train.url}
 
     phish = fresh_phishing(train_urls)
-    legit = fresh_legit(train_domains)
-    print(f"fresh phishing: {len(phish)} urls, legit: {len(legit)} urls")
+    bare = fresh_legit(train_domains)
+    real = crawled_legit(train_domains)
+    legit = bare + real
+    print(f"fresh phishing: {len(phish)} urls, legit: {len(bare)} bare homepages + {len(real)} real crawled urls")
 
     rows = []
     for url, label in [(u, 1) for u in phish] + [(u, 0) for u in legit]:
@@ -87,7 +96,10 @@ def main():
     print("\nlegit flagged (first 15):")
     for _, r in df[(df.label == 0) & (df.pred == 1)].head(15).iterrows():
         print(f"  {r.prob:.2f}  {r.url[:100]}")
-    stress_test(clf, cols, legit)
+    show("real crawled legit (paths, www, queries) vs fresh phishing", df[~df.url.isin(bare)])
+    flagged = df[(df.label == 0) & (df.pred == 1) & df.url.isin(real)]
+    print(f"real legit flagged: {len(flagged)} of {len(real)}")
+    stress_test(clf, cols, bare)
     print(f"\nphishing on seen domains: {((df.label==1)&df.seen_domain).sum()} of {(df.label==1).sum()}")
 
 

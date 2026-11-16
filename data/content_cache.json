@@ -899,6 +899,16 @@
    "has_password_field": 0
   }
  },
+ "https://aaplimg.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://abdiqeys.github.io/netflix-landing-page": {
   "error": "",
   "features": {
@@ -919,10 +929,50 @@
    "has_password_field": 0
   }
  },
+ "https://about.gitlab.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.25,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://about.gitlab.com/partners/technology-partners/google-cloud-platform/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://about.gitlab.com/solutions/aerospace/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.099,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://abovedomains.com": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://accountants.intuit.com/tax-software/tax-online/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.075,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
@@ -969,12 +1019,52 @@
    "has_password_field": 0
   }
  },
+ "https://adblockplus.org/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://adblockplus.org/en/privacy": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://adblockplus.org/releases/": {
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://adblockplus.org/releases/\nCall log:\n  - navigating to \"https://adblockplus.org/releases/\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://addtoany.com": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.083,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://adnxs.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -1035,6 +1125,26 @@
    "external_resource_ratio": 0.286,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://adtelligent.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.59,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://adtelligent.com/blog/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -1169,12 +1279,32 @@
    "has_password_field": 0
   }
  },
+ "https://alibaba.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://alipay.com": {
   "error": "",
   "features": {
    "external_resource_ratio": 1.0,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://aliyun.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -1339,6 +1469,16 @@
    "has_password_field": 0
   }
  },
+ "https://applovin.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://appsflyer.com": {
   "error": "",
   "features": {
@@ -1349,12 +1489,42 @@
    "has_password_field": 0
   }
  },
+ "https://article.auone.jp/b68db7d1-8df9-48f2-a94b-24d9cb3c1db3": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.136,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://arxiv.org": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://astrumu.io": {
   "error": "",
   "features": {
    "external_resource_ratio": 1.0,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://asurascans.com/comics/whispers-of-a-scheming-demon-7ba78ec7": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -1383,6 +1553,16 @@
   "error": "",
   "features": {
    "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://authn.matterport.com/auth/login": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.375,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
@@ -1429,6 +1609,16 @@
    "has_password_field": 0
   }
  },
+ "https://ax-msedge.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://azure-dns.com": {
   "error": "no public ip",
   "features": {
@@ -1440,6 +1630,16 @@
   }
  },
  "https://azurefd.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://b-cdn.net": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -1489,6 +1689,16 @@
    "has_password_field": 0
   }
  },
+ "https://blog.google/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://bluehost.com": {
   "error": "",
   "features": {
@@ -1500,6 +1710,16 @@
   }
  },
  "https://brave.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://browser-intake-datadoghq.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -1599,6 +1819,16 @@
    "has_password_field": 0
   }
  },
+ "https://canva.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://capcut.com": {
   "error": "",
   "features": {
@@ -1629,6 +1859,16 @@
    "has_password_field": 0
   }
  },
+ "https://cdninstagram.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://center-supp0012935324.pages.dev/help/contact/709693200802329": {
   "error": "",
   "features": {
@@ -1639,8 +1879,28 @@
    "has_password_field": 0
   }
  },
+ "https://chatgpt.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://chatgpt.site": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://chatgpt.site/\nCall log:\n  - navigating to \"https://chatgpt.site/\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://checkpoint.com": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -1679,6 +1939,26 @@
    "has_password_field": 0
   }
  },
+ "https://cloud.digitalocean.com/registrations/new": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://cloud.microsoft": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://cloudflare-dns.com": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://cloudflare-dns.com/\nCall log:\n  - navigating to \"https://cloudflare-dns.com/\", waiting until \"load\"\n",
   "features": {
@@ -1695,6 +1975,16 @@
    "external_resource_ratio": 0.03,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://cloudflare.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -1739,12 +2029,32 @@
    "has_password_field": 0
   }
  },
+ "https://cnbc.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://co-kr.vercel.app/": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://comcast.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -1851,6 +2161,16 @@
  },
  "https://craigslist.org": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://craigslist.org/\nCall log:\n  - navigating to \"https://craigslist.org/\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://creativecommons.org": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -1989,6 +2309,16 @@
    "has_password_field": 0
   }
  },
+ "https://dailymotion.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://dashnxdomain.net": {
   "error": "no public ip",
   "features": {
@@ -2019,12 +2349,32 @@
    "has_password_field": 0
   }
  },
+ "https://dell.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://digitalocean.com": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.022,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://discord.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -2059,7 +2409,27 @@
    "has_password_field": 0
   }
  },
+ "https://disqus.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://dnse1.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://dnsmadeeasy.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -2109,6 +2479,16 @@
    "has_password_field": 0
   }
  },
+ "https://doubleclick.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://douyincdn.com": {
   "error": "no public ip",
   "features": {
@@ -2149,12 +2529,42 @@
    "has_password_field": 0
   }
  },
+ "https://dynatrace.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://e2ro.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ea.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://easytrader.ir/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.074,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -2259,6 +2669,36 @@
    "has_password_field": 0
   }
  },
+ "https://expireddomains.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ey43.com/assets/terms-of-service.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ezviz7.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://facebook.com": {
   "error": "",
   "features": {
@@ -2285,6 +2725,36 @@
    "external_resource_ratio": 0.556,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://fandom.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://fastdl.app/en5IW": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.055,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://fastdl.app/terms-and-conditions": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -2375,6 +2845,16 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://fortune.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.107,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -2519,6 +2999,16 @@
    "has_password_field": 0
   }
  },
+ "https://global-navbar-backend.id.hp.com/api/v1/session/logout": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://gmail.com": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://gmail.com/\nCall log:\n  - navigating to \"https://gmail.com/\", waiting until \"load\"\n",
   "features": {
@@ -2539,6 +3029,26 @@
    "has_password_field": 0
   }
  },
+ "https://goodreads.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://google-analytics.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://google.co.jp": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://google.co.jp/\nCall log:\n  - navigating to \"https://google.co.jp/\", waiting until \"load\"\n",
   "features": {
@@ -2549,8 +3059,28 @@
    "has_password_field": 0
   }
  },
+ "https://googlesyndication.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://googletagmanager.com": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://googleusercontent.com": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -2649,6 +3179,26 @@
    "has_password_field": 0
   }
  },
+ "https://harvard.edu": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://hicloudcam.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://hm.com": {
   "error": "",
   "features": {
@@ -2669,6 +3219,16 @@
    "has_password_field": 0
   }
  },
+ "https://hostgator.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://hotpepper.jp": {
   "error": "",
   "features": {
@@ -2681,6 +3241,46 @@
  },
  "https://hpqmn0dskra-wktvzwur-6w3u8d-ny222a.pages.dev/": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://huggingface.co/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://huggingface.co/Intel": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.006,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://huggingface.co/docs/tokenizers": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.031,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://huggingface.co/models": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -2779,6 +3379,26 @@
    "has_password_field": 0
   }
  },
+ "https://imgsrc.ru/9174337478/86107521.html?utm_source=main_reco": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://imgsrc.ru/fotobaza/86031603.html?utm_source=main_reco": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.2,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://impervadns.net": {
   "error": "no public ip",
   "features": {
@@ -2869,6 +3489,16 @@
    "has_password_field": 0
   }
  },
+ "https://ip-api.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://ipify.org": {
   "error": "",
   "features": {
@@ -2885,6 +3515,16 @@
    "external_resource_ratio": 1.0,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://issuu.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -2979,6 +3619,36 @@
    "has_password_field": 0
   }
  },
+ "https://jobs.netflix.com/jobs": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.037,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://jquery.com/support": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.062,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://jsdelivr.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://julianocampestre.com.br/blowwn": {
   "error": "",
   "features": {
@@ -2995,6 +3665,26 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://kick.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.043,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://kick.com/kicks-usage-policy": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.049,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -3079,6 +3769,96 @@
    "has_password_field": 0
   }
  },
+ "https://lichess.org/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://lichess.org/editor": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://link.springer.com/brands/springer": {
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://link.springer.com/brands/springer\nCall log:\n  - navigating to \"https://link.springer.com/brands/springer\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://link.springer.com/brands/springer/journals/physics-and-astronomy": {
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://link.springer.com/brands/springer/journals/physics-and-astronomy\nCall log:\n  - navigating to \"https://link.springer.com/brands/springer/journals/physic",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://linkedin.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://linkmake.in/contact.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://linkmake.in/dmca.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://linkmake.in/policy.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://live-video.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://login.epicgames.com/": {
   "error": "no public ip",
   "features": {
@@ -3109,6 +3889,16 @@
    "has_password_field": 0
   }
  },
+ "https://login.opendns.com/?return_to=https://dashboard.opendns.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://loginfacebook2014.blogspot.com/": {
   "error": "",
   "features": {
@@ -3135,6 +3925,16 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://lwsdns.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -3173,6 +3973,36 @@
   "error": "",
   "features": {
    "external_resource_ratio": 0.293,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://matterport.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.124,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://matterport.com/solutions/design-construction": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://matterport.com/solutions/property-marketing": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.11,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
@@ -3289,6 +4119,16 @@
    "has_password_field": 0
   }
  },
+ "https://moskva.beeline.ru/business/mobile-and-internet/femtosota/?b2c=catalog_\u0424\u0435\u043c\u0442\u043e\u0441\u043e\u0442\u0430": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.046,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://msn.com": {
   "error": "",
   "features": {
@@ -3299,7 +4139,57 @@
    "has_password_field": 0
   }
  },
+ "https://musicdel.ir/%D8%A7%D9%81%D8%BA%D8%A7%D9%86%DB%8C/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://musicdel.ir/%DA%A9%D9%88%D8%AF%DA%A9%D8%A7%D9%86%D9%87/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.017,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://my.chase.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://my.clevelandclinic.org/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://my.clevelandclinic.org/about/community": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://my.clevelandclinic.org/services/schedule-colorectal-surgery": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -3409,6 +4299,26 @@
    "has_password_field": 0
   }
  },
+ "https://naver.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://news.wisc.edu/uw-madison-ranked-no-11-for-best-value-among-public-schools/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://nextcloud.com": {
   "error": "",
   "features": {
@@ -3419,7 +4329,57 @@
    "has_password_field": 0
   }
  },
+ "https://nextcloud.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.031,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://nextcloud.com/about/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://nextcloud.com/blog/german-federal-administration-relies-on-nextcloud-as-a-secure-file-exchange-solution/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.056,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://nflximg.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://nflxso.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://nih.gov": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -3479,6 +4439,46 @@
    "has_password_field": 0
   }
  },
+ "https://office.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ok.ru": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ok.ru/agreementpage": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.58,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ok.ru/rtterms": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.58,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://okcdn.ru": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://okcdn.ru/\nCall log:\n  - navigating to \"https://okcdn.ru/\", waiting until \"load\"\n",
   "features": {
@@ -3499,7 +4499,47 @@
    "has_password_field": 0
   }
  },
+ "https://omtrdc.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://onelink.me": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://oneme.ru": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://onetag-sys.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://opendns.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -3519,12 +4559,32 @@
    "has_password_field": 0
   }
  },
+ "https://order.springer.com/public/cart": {
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://order.springer.com/public/cart\nCall log:\n  - navigating to \"https://order.springer.com/public/cart\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://otto.de": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.004,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://outlook.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -3599,6 +4659,26 @@
    "has_password_field": 0
   }
  },
+ "https://paloaltonetworks.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://paypal.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://people.com": {
   "error": "",
   "features": {
@@ -3629,6 +4709,26 @@
    "has_password_field": 0
   }
  },
+ "https://piccoma.com/web/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.066,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://piccoma.com/web/product/214932?etype=volume": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.133,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://pikabu.ru": {
   "error": "",
   "features": {
@@ -3645,6 +4745,16 @@
    "external_resource_ratio": 0.759,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://pixabay.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -3669,8 +4779,48 @@
    "has_password_field": 0
   }
  },
+ "https://plesk.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://plex.direct": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://plonex-plera-a7c109-wplm-6cb712.pages.dev/": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://poki.com/en/g/car-circle": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.814,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://poki.com/en/g/kick-the-buddy": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -3685,6 +4835,16 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://portal.auone.jp/domestic": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.11,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -3729,6 +4889,16 @@
    "has_password_field": 0
   }
  },
+ "https://pubmatic.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://px-cloud.net": {
   "error": "",
   "features": {
@@ -3761,6 +4931,16 @@
  },
  "https://qtlm.spheremama.com/index.html": {
   "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://qtlm.spheremama.com/index.html\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://quora.com": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -3840,6 +5020,16 @@
   }
  },
  "https://resolver.arpa": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://reuters.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -3939,6 +5129,16 @@
    "has_password_field": 0
   }
  },
+ "https://run.app": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://rutube.ru": {
   "error": "",
   "features": {
@@ -4009,6 +5209,86 @@
    "has_password_field": 0
   }
  },
+ "https://salesforce.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://sarkariresult.com.cm/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.28,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://sarkariresult.com.cm/disclaimer/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.25,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://satta-king-fast.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.375,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://satta-king-fast.com/hindustan/satta-result-chart/hi/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.375,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://satta-king-fast.com/royal-bazar/satta-result-chart/ro/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://scdn.co": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://sciencedirect.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://scvirtuappngs.netlify.app/": {
   "error": "",
   "features": {
@@ -4059,12 +5339,52 @@
    "has_password_field": 0
   }
  },
+ "https://sentry.io": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://server-hopye-webpage-e8dn.bolt.host/": {
   "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://server-hopye-webpage-e8dn.bolt.host/\", waiting until \"load\"\n",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://sexmupxinh.net/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.146,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://sexmupxinh.net/phim-sex-khong-che/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://sexmupxinh.net/phim/qua-dem-ben-em-dong-nghiep-mat-dam-ngay-ngat/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.24,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -4161,6 +5481,16 @@
  },
  "https://sknt.ru": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sknt.ru/\nCall log:\n  - navigating to \"https://sknt.ru/\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://skybridge.click": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -4429,6 +5759,26 @@
    "has_password_field": 0
   }
  },
+ "https://staseraintv.com/programmi_stasera_cielo.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.25,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://staseraintv.com/programmi_stasera_raimovie.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://statista.com": {
   "error": "",
   "features": {
@@ -4450,6 +5800,46 @@
   }
  },
  "https://steamcommunity.com": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.98,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://steamcommunity.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.98,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://steamcommunity.com/?l=danish": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.98,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://steamcommunity.com/?l=norwegian": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.98,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://steamcommunity.com/?l=russian": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.98,
@@ -4489,6 +5879,16 @@
    "has_password_field": 0
   }
  },
+ "https://substack.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.98,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://sumeethukkeri-cmyk.github.io/Netflix_med/": {
   "error": "",
   "features": {
@@ -4515,6 +5915,16 @@
    "external_resource_ratio": 0.475,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://tagomi.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -4599,6 +6009,36 @@
    "has_password_field": 0
   }
  },
+ "https://themeforest.net/category/blogging": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://themeforest.net/category/ecommerce/shopify/miscellaneous": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://themeforest.net/user/rivaxstudio": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://theverge.com": {
   "error": "",
   "features": {
@@ -4619,7 +6059,27 @@
    "has_password_field": 0
   }
  },
+ "https://tiktokcdn-us.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://tiktokpangle.us": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://tiktokv.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -4635,6 +6095,36 @@
    "external_resource_ratio": 0.099,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://time.com/section/health/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.141,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://time.com/tag/time-to-talk/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.169,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://tm-azurefd.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -4689,12 +6179,32 @@
    "has_password_field": 0
   }
  },
+ "https://trafficmanager.net": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://transsion-os.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://travel.ticketmaster.com/?_uid=0f1bec08-8892-4a87-8834-8e73f805ef33&utm_source=TM_Homepage_AdLaunch_TTravel_adV2&utm_medium=TMUS_adunit_small_CombineYourTicketWithAHotel&utm_campaign=Awareness_TM_Homepage&utm_id=TTravel_TM_Homepage_Ad_Sm": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.312,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -4719,8 +6229,28 @@
    "has_password_field": 0
   }
  },
+ "https://triplinkintl.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://trustbyxg.vercel.app/": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ttdns2.com": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -4740,6 +6270,16 @@
   }
  },
  "https://turn.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://twitter.com": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -4779,6 +6319,36 @@
    "has_password_field": 0
   }
  },
+ "https://ucsd.edu/academics/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.046,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ucsd.edu/research-innovation/student-opportunities.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://ui.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://umich.edu": {
   "error": "",
   "features": {
@@ -4795,6 +6365,16 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://unrulymedia.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -4869,6 +6449,16 @@
    "has_password_field": 0
   }
  },
+ "https://vercel-dns-017.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://vg.no": {
   "error": "",
   "features": {
@@ -4879,12 +6469,32 @@
    "has_password_field": 0
   }
  },
+ "https://videeyss.shop/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://vivo.com.cn": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.87,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://vk.ru": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -4939,8 +6549,28 @@
    "has_password_field": 0
   }
  },
+ "https://vungle.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://vwl-439tu2-g47-7gcer-pd5e5.pages.dev/": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://wa.me": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -4975,6 +6605,26 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://weather.com/ur-PK/pk/punjab/city/lahore/radar": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.05,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://weather.com/ur-PK/pk/punjab/city/lahore/today?Goto=Redirected": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.052,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5019,6 +6669,26 @@
    "has_password_field": 0
   }
  },
+ "https://wixsite.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://wordpress.com": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://wordpress.org": {
   "error": "",
   "features": {
@@ -5029,8 +6699,58 @@
    "has_password_field": 0
   }
  },
+ "https://wordwall.net/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.009,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://wordwall.net/about/template/flashcards": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://wordwall.net/about/template/speakingcards": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://wordwall.net/about/template/unjumble": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.013,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://worker-blue-morning-0ad8.dr72rpgr9p.workers.dev/": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://workers.dev": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -5129,10 +6849,110 @@
    "has_password_field": 0
   }
  },
+ "https://www.addtoany.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.083,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.addtoany.com/privacy": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.addtoany.com/share/preferences": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.adroll.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.adroll.com/features/analytics": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.adroll.com/solutions/d2c": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.adroll.com/solutions/non-profit": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.airbnb.com/login": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.872,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.alura.com.br/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.02,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.alura.com.br/carreiras": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.alura.com.br/pos-tech": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.034,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
@@ -5145,6 +6965,66 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.anthropic.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.091,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.anthropic.com/claude/fable": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.195,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.anthropic.com/news/core-views-on-ai-safety": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.03,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.aparat.com/home": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.08,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.appsflyer.com/products/enterprise-grade-security/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.097,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.appsflyer.com/products/measurement/creative-optimization/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.08,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5169,8 +7049,178 @@
    "has_password_field": 0
   }
  },
+ "https://www.bfmtv.com:443/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.624,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bfmtv.com:443/var/en-direct/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bigcommerce.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bitdefender.com/consumer/support/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.138,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bitdefender.com/en-bz/business/products/managed-detection-response-service": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.027,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bitdefender.com/en-us/blog/businessinsights/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.079,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.booking.com/sign-in.html": {
   "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.branch.io/products/platform/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.048,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.branch.io/products/roi-analytics/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bt.dk/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bt.dk/fodbold/raser-over-dansker-slagtes-i-udlandet": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.bt.dk/sport": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ca.gov/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.069,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ca.gov/departments/236/services/33/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.calculator.net/loan-calculator.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.846,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.clever.com/cybersecure-report": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.105,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.clever.com/mcgraw-hill": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.clever.com/products/badges": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -5189,12 +7239,72 @@
    "has_password_field": 0
   }
  },
+ "https://www.cpmstar.com/case-studies": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.395,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.craigslist.org/login": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.criteo.com/industry/travel/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.dailymail.com/home/index.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.deloitte.com/global/en.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.deloitte.com/global/en/about/recognition.html?icid=top_recognition": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.091,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.deloitte.com/global/en/industries/investment-management/about.html?icid=top_about": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.09,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5209,12 +7319,82 @@
    "has_password_field": 0
   }
  },
+ "https://www.docker.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.docker.com/onboarding-request/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.068,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.docker.com/pricing/contact-sales/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.docusign.com/login": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.docusign.com/login\nCall log:\n  - navigating to \"https://www.docusign.com/login\", waiting until \"load\"\n",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.dreamhost.com/news/press-releases/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.034,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.dropbox.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.86,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.dropbox.com/docsend": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.805,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.dropbox.com/features/cloud-storage": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.767,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5229,12 +7409,62 @@
    "has_password_field": 0
   }
  },
+ "https://www.dropbox.com/replay": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.ebay.com/signin/": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ebay.com/signin/\nCall log:\n  - navigating to \"https://www.ebay.com/signin/\", waiting until \"load\"\n",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.elsevier.com/industry": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.elsevier.com/legal/privacy-policy": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.eset.com/us/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.eset.com/us/partnernow/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.294,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5289,8 +7519,188 @@
    "has_password_field": 1
   }
  },
+ "https://www.facebook.com/policies/cookies/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.87,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.facebook.com/privacy/center/?entry_point=facebook_page_footer": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.449,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.fastcompany.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.fastcompany.com/91587910/jinro-soju-growth-strategy": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.fastcompany.com/section/promotion": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.fastcompany.com/subscribe?utm_source=dek&utm_medium=lander&utm_campaign=main&postID=premiumLander": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.fidelity.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.fidelity.com/intlacct/solutions_page.shtml": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.file.spheremama.com/": {
   "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.file.spheremama.com/\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.filmweb.pl/news/category/serial": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.97,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.firefox.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.firefox.com/bs/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.032,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.firefox.com/ro/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.flurry.com/analytics/user-segmentation/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.931,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.freebsd.org/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.071,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 1,
+   "has_password_field": 0
+  }
+ },
+ "https://www.freebsd.org/donations": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.111,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 1,
+   "has_password_field": 0
+  }
+ },
+ "https://www.freebsd.org/releases/15.1R/announce/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gazzetta.it/Atletica/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gazzetta.it/Calcio/Ligue-1/": {
+  "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -5305,6 +7715,106 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gob.mx/busqueda": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gob.mx/gobierno": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gov.br/pt-br": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gov.br/pt-br/perfil_usuario/turista": {
+  "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.gov.br/pt-br/perfil_usuario/turista\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gov.uk/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gov.uk/search/news-and-communications": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.gov.uk/search/transparency-and-freedom-of-information-releases": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.haberler.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.haberler.com/haberler/indirimli-boy-aynasi-izdihama-neden-oldu-magaza-20429536-haberi/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.haberler.com/mahkeme/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.034,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5329,6 +7839,56 @@
    "has_password_field": 0
   }
  },
+ "https://www.hetzner.com/dedicated-rootserver/matrix-dell/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.hln.be/binnenland/woonlening-knelt-bij-bijna-1-op-de-3-belgen-bij-huurders-heeft-zelfs-36-procent-soms-moeite-om-huur-te-betalen~a30a4494/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.588,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.hln.be/woon/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.hostinger.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.hostinger.com/ai-website-builder": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.05,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.hotmail.com/login": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hotmail.com/login\nCall log:\n  - navigating to \"https://www.hotmail.com/login\", waiting until \"load\"\n",
   "features": {
@@ -5339,12 +7899,112 @@
    "has_password_field": 0
   }
  },
+ "https://www.hp.com/us-en/laptops/home-laptops/omnibook/omnibook-5-ai-pc.html?jumpid=ma_hp.com_home_hero_mkng_na_2_261001": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.067,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.hp.com/us-en/shop/cat/ink--toner---paper": {
+  "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hp.com/us-en/shop/cat/ink--toner---paper\nCall log:\n  - navigating to \"https://www.hp.com/us-en/shop/cat/ink--toner---paper\", waiting until \"load",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.huffpost.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.huffpost.com/section/opinion": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.778,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.hulu.com/login": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ilmeteo.it/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.293,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ilmeteo.it/notizie/liguria-maltempo-a-la-spezia-allagamenti-in-citt-e-fiumi-in-monitoraggio-video-164001": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ilmeteo.it/notizie/report-eventi-meteo": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.iltalehti.fi/bitti": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.676,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.iltalehti.fi/tv-ja-leffat/a/abde1346-eae1-4ed2-a440-4b6b95682a70": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.629,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.iltalehti.fi/ulkomaat/a/feb8ec65-1fa7-4af4-9ff7-f215ab511814": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.629,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5379,12 +8039,122 @@
    "has_password_field": 0
   }
  },
+ "https://www.intercom.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.intuit.com/careers/working-at-intuit/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.iqiyi.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.486,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ixl.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ixl.com/membership": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.jacog60r.spheremama.com/": {
   "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.jacog60r.spheremama.com/\", waiting until \"load\"\n",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.jalan.net/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.11,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.jalan.net/airticket/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.037,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.jalan.net/theme/hangaku/?ctm=N11": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.019,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.jetbrains.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.011,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.jetbrains.com/air/governance/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.025,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.jetbrains.com/company/brand/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.025,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5400,6 +8170,46 @@
   }
  },
  "https://www.kjfycvb5.sanpinjia.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.kooora.com/%D9%85%D9%86%D8%AA%D8%AF%D9%8A%D8%A7%D8%AA": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.kooora.com:443/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.242,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.kooora.com:443/\u0643\u0631\u0629-\u0627\u0644\u0642\u062f\u0645/\u0645\u0633\u0627\u0628\u0642\u0629/\u062f\u0648\u0631\u064a-\u0627\u0644\u062e\u0644\u064a\u062c-\u0627\u0644\u0639\u0631\u0628\u064a/f39uq10c8xhg5e6rwwcf6lhgc": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.433,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.lefigaro.fr/": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -5439,6 +8249,86 @@
    "has_password_field": 0
   }
  },
+ "https://www.media.net/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.98,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.media.net/optout/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.963,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.mediatek.com/technology/5g": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.222,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 1,
+   "has_password_field": 0
+  }
+ },
+ "https://www.mediatek.com/tek-talk-blogs/how-mediatek-built-its-way-to-global-technology-leadership": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.mobiledokan.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.mobiledokan.com/mobile/zte-nubia-redmagic-12-pro": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.123,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 1
+  }
+ },
+ "https://www.moengage.com/blog/moengage-acquires-aampe/": {
+  "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.moengage.com/blog/moengage-acquires-aampe/\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.netangels.ru/company/news/2026/obnovlenie-uslovij-dogovora/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.027,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.netflix.com/login": {
   "error": "",
   "features": {
@@ -5449,12 +8339,272 @@
    "has_password_field": 1
   }
  },
+ "https://www.netflix.com/pk/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 1.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.newsweek.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.207,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.newsweek.com/dev-pragad": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.newsweek.com/i-lost-hope-after-4-years-of-infertility-then-at-41-everything-changed-12700895": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.newsweek.com/new-us-b-21-raider-stealth-bomber-passes-major-weapons-milestone-12717113": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.373,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nexon.com/main/en": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nikkansports.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.722,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nikkansports.com/olympic/beijing2022/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.723,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nikkansports.com/soccer/jleague/j3/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nikkei.com/economy/economy/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nikkei.com/opinion/asia/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.nikkei.com:443/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.011,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ninisite.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.057,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 1
+  }
+ },
+ "https://www.ninisite.com/imen/signup": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.207,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 1
+  }
+ },
+ "https://www.notion.com/fr": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.197,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.okta.com/newsroom/articles/executive-of-the-year-charlotte-wylie-on-the-future-of-cybersecurity/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.065,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.onetrust.com/content/onetrust/us/en/resources/events": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.opendns.com:443/privacy-policy/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.otto.de/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.004,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.otto.de/baumarkt/sanitaer/wc/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.otto.de/heimtextilien/lattenroste/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.patreon.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.075,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.patreon.com/collection/1489797": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.125,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.patreon.com/create": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.paypal.com/signin": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.pbs.org/articles/topic/black-culture-connection/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.846,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.pbs.org/explore/documentaries-and-indie-films/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.019,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5469,7 +8619,67 @@
    "has_password_field": 0
   }
  },
+ "https://www.programme-tv.net/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.191,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.programme-tv.net/guide-canal-plus/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.241,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.programme-tv.net/programme/chaine/programme-6ter-202.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.promo.sanpinjia.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.python.org/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.16,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.python.org/community/workshops/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.16,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.python.org/events/python-user-group/": {
   "error": "no public ip",
   "features": {
    "external_resource_ratio": 0.0,
@@ -5503,6 +8713,36 @@
   "error": "",
   "features": {
    "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.rfc-editor.org/series/rfc-errata/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.121,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.rfc-editor.org/subjects/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.121,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.riotgames.com/en/news": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.235,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
@@ -5689,12 +8929,52 @@
    "has_password_field": 0
   }
  },
+ "https://www.ryanair.com/ie/en": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.145,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.salesforce.com/login": {
   "error": "",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.screenconnect.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.screener.in/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.screener.in/docs/changelog/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5729,8 +9009,38 @@
    "has_password_field": 0
   }
  },
+ "https://www.sexnyk.com/video/4902/\u0645\u0631\u0628\u0631\u0628\u0647-\u0645\u0635\u0631\u064a\u0647-\u0646\u0627\u064a\u0645\u0647-\u0648\u0628\u062a\u0642\u0648\u0644-\u0644\u0639\u0634\u064a\u0642\u0647\u0627-\u064a\u062d\u0637-\u0632\u0628\u0647-\u0643\u0644\u0647-\u0648\u064a\u0641\u0634\u062e\u0647\u0627/": {
+  "error": "Page.goto: net::ERR_CONNECTION_RESET at https://www.sexnyk.com/video/4902/%D9%85%D8%B1%D8%A8%D8%B1%D8%A8%D9%87-%D9%85%D8%B5%D8%B1%D9%8A%D9%87-%D9%86%D8%A7%D9%8A%D9%85%D9%87-%D9%88%D8%A8%D8%AA%D9%82%D9",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.sexnyk.com/video/4919/\u0628\u0646\u062a-\u0645\u0635\u0631\u064a\u0647-\u062c\u0627\u0645\u062f\u0647-\u0639\u0644\u0649-\u0627\u0644\u0627\u062e\u0631-\u062d\u0628\u064a\u0628\u0647\u0627-\u0645\u0634-\u0631\u0627\u062d\u0645-\u0643\u0633\u0647\u0627-\u0639\u0644\u0649-\u0627\u0644\u0627\u0631\u0636/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.095,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.sexy-whatsapp.blogspot.com/?m=1": {
   "error": "Page.goto: net::ERR_CONNECTION_RESET at https://www.sexy-whatsapp.blogspot.com/?m=1\nCall log:\n  - navigating to \"https://www.sexy-whatsapp.blogspot.com/?m=1\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.shodan.io/store/member": {
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.shodan.io/store/member\nCall log:\n  - navigating to \"https://www.shodan.io/store/member\", waiting until \"load\"\n",
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
@@ -5749,6 +9059,36 @@
    "has_password_field": 0
   }
  },
+ "https://www.sohu.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.sohu.com/a/1102086191_429139?edtsign=1AA577F12B62E7C4C0CC43421F869B5BD715033E&edtcode=iuHdqxHtf8KDncYwGWrkFA%3D%3D&scm=thor.282_14-200000.0.0-0-0-0-0.&ace=057076DC50A09F3849B2C1B60145482C6447BD8B": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.833,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.spamhaus.org/resource-hub/dnsbl/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.143,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.spotify.com/login": {
   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.spotify.com/login\nCall log:\n  - navigating to \"https://www.spotify.com/login\", waiting until \"load\"\n",
   "features": {
@@ -5759,12 +9099,222 @@
    "has_password_field": 0
   }
  },
+ "https://www.squarespace.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.662,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.squarespace.com/designer/home": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.793,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.squarespace.com/ecommerce/limited-release-selling": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.77,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.squarespace.com/solutions/creative-services/artists": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.598,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.tagesschau.de:443/wirtschaft/digitales": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.205,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.target.com/account": {
   "error": "",
   "features": {
    "external_resource_ratio": 1.0,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.tawk.to/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.tawk.to/legal/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.teamviewer.com/apac/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.239,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.teamviewer.com/apac/platform/one/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.249,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.teamviewer.com/apac/solutions/industries/financial-services/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.telefonica.de/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.telefonica.de/karriere.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.049,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.telefonica.de/netze/5g.html": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.tgju.org/profile/ime_fund_tabesh": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.017,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.tgju.org/profile/price_bhd": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.017,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.tgju.org/profile/\u0633\u06a9\u0647-\u067e\u0627\u0631\u0633\u06cc\u0627\u0646-\u06f0-\u06f9\u06f0\u06f0": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.017,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.therapservices.net/products/billing-software/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.2,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 1,
+   "has_password_field": 0
+  }
+ },
+ "https://www.theverge.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.066,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ticketmaster.com/hamilton-ny-tickets/artist/2095830": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.ticketmaster.com/john-mulaney-tickets/artist/1231400": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5799,6 +9349,96 @@
    "has_password_field": 0
   }
  },
+ "https://www.unesco.org/en": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.018,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.unesco.org/en/about-us": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.unesco.org/en/logo-patronage": {
+  "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.unesco.org/en/logo-patronage\", waiting until \"load\"\n",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.va.gov/my-va/forms": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.va.gov/va-payment-history/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.213,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.verisign.com/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.verisign.com/news-insights/ksk-rollover/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.25,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.vice.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.188,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.vice.com/ru": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.vpn.spheremama.com/": {
   "error": "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.vpn.spheremama.com/\", waiting until \"load\"\n",
   "features": {
@@ -5814,6 +9454,26 @@
   "features": {
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.waze.com/about": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.875,
+   "favicon_brand_match": 1,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.waze.com/partners/wazeforcities": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.915,
+   "favicon_brand_match": 1,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
@@ -5837,6 +9497,16 @@
    "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 1
+  }
+ },
+ "https://www.weebly.com/?lang=ru_RU": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.163,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
   }
  },
  "https://www.weqweqw.com/": {
@@ -5869,6 +9539,16 @@
    "has_password_field": 0
   }
  },
+ "https://www.wisc.edu/about/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.412,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
  "https://www.wordpress.com/log-in": {
   "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
   "features": {
@@ -5883,6 +9563,96 @@
   "error": "",
   "features": {
    "external_resource_ratio": 0.333,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.xn--42cf7cgd7gxbd4m7c.cc/": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.xn--42cf7cgd7gxbd4m7c.cc/57016": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.15,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.xn--42cf7cgd7gxbd4m7c.cc/category/%e0%b8%84%e0%b8%a5%e0%b8%b4%e0%b8%9b%e0%b9%82%e0%b8%9b%e0%b9%8a": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.youronlinechoices.com/ee/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.167,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.youronlinechoices.com/hr/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.143,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.zedge.net/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.184,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.zoho.com/": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.969,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.zoho.com/agents/?src=zindex": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.969,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://www.zoho.com/time/?src=zindex": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.957,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
    "form_action_mismatch": 0,
@@ -5925,6 +9695,16 @@
    "external_resource_ratio": 0.0,
    "favicon_brand_match": 0,
    "fetch_ok": 0,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://xsmn.mobi/xsmn-12-11-2026.html": {
+  "error": "",
+  "features": {
+   "external_resource_ratio": 0.448,
+   "favicon_brand_match": 0,
+   "fetch_ok": 1,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }
@@ -5995,6 +9775,16 @@
    "external_resource_ratio": 0.774,
    "favicon_brand_match": 0,
    "fetch_ok": 1,
+   "form_action_mismatch": 0,
+   "has_password_field": 0
+  }
+ },
+ "https://zoom.us": {
+  "error": "no public ip",
+  "features": {
+   "external_resource_ratio": 0.0,
+   "favicon_brand_match": 0,
+   "fetch_ok": 0,
    "form_action_mismatch": 0,
    "has_password_field": 0
   }

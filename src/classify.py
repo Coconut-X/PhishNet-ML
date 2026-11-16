@@ -7,6 +7,10 @@ from content_features import fetch_content_features, SandboxError
 
 MODEL_PATH = "data/model.joblib"
 DEEP_MODEL_PATH = "data/model_deep.joblib"
+#below 0.5 legit, 0.5 to 0.7 suspicious (shown, not blocked), 0.7 and up phishing (warning page).
+#0.7 was picked from grouped cv on the training data: 8% of legit urls flagged at 0.5, 4.7% at 0.7
+SUSPICIOUS_AT = 0.5
+PHISHING_AT = 0.7
 
 
 def classify(url: str, deep: bool = False) -> dict:
@@ -41,7 +45,7 @@ def classify(url: str, deep: bool = False) -> dict:
     X = pd.DataFrame([row])[feature_cols]
 
     proba = clf.predict_proba(X)[0]
-    verdict = "PHISHING" if proba[1] >= 0.5 else "LEGITIMATE"
+    verdict = "PHISHING" if proba[1] >= PHISHING_AT else "SUSPICIOUS" if proba[1] >= SUSPICIOUS_AT else "LEGITIMATE"
 
     #shap values for this one url: how many probability points each feature pushed the
     #phishing probability up (+) or down (-) from the baseline. baseline + all the pushes

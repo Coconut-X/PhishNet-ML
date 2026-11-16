@@ -10,6 +10,41 @@ os.chdir(ROOT)
 
 from classify import classify
 
+#big well known sites are not run through the model. a url model that flags google searches is
+#useless in a browser. shared hosting platforms are left out of the list, anyone can put a
+#phishing page on those, so they always go through the model
+TOP_N = 2000
+SHARED_HOSTS = {"blogspot.com", "github.io", "pages.dev", "vercel.app", "workers.dev", "netlify.app",
+                "herokuapp.com", "duckdns.org", "weebly.com", "wixsite.com", "web.app", "firebaseapp.com",
+                "glitch.me", "000webhostapp.com", "sites.google.com", "googleusercontent.com",
+                "amazonaws.com", "azurewebsites.net", "wordpress.com", "r2.dev", "repl.co", "onrender.com"}
+
+
+def load_allowlist():
+    from features import registered_domain
+    allow = set()
+    try:
+        with open("data/top-1m.csv") as f:
+            for line in f:
+                rank, domain = line.strip().split(",")
+                if int(rank) > TOP_N:
+                    break
+                rd = registered_domain("https://" + domain)
+                if rd not in SHARED_HOSTS and domain not in SHARED_HOSTS:
+                    allow.add(rd)
+    except OSError:
+        pass
+    return allow
+
+
+ALLOWLIST = load_allowlist()
+
+
+def allowlisted(url):
+    from features import registered_domain
+    return registered_domain(url) in ALLOWLIST
+
+
 app = Flask(__name__)
 MAX_URL_LEN = 2048
 
@@ -40,6 +75,10 @@ def scan_fast():
     url, err = get_url()
     if err:
         return err
+    if allowlisted(url):
+        return jsonify(url=url, model="allowlist", verdict="LEGITIMATE", confidence=1.0,
+                       phishing_probability=0.0, baseline=0.0, explanation=[], other_features=0.0,
+                       note="top 2000 site, not run through the model")
     return jsonify(classify(url, deep=False))
 
 

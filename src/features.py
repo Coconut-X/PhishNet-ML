@@ -65,6 +65,9 @@ def extract_url_features(url: str) -> dict:
     if url.endswith("/") and urlparse(url if "://" in url else "http://" + url).path == "/" \
             and "?" not in url and "#" not in url:
         url = url[:-1]
+    #same idea for www, every site has it and it is not a real subdomain, but the dataset
+    #had it on 12% of legit urls vs most browser urls, so it counted as a suspicious subdomain
+    url = re.sub(r"^((?:[a-z][a-z0-9+.-]*://)?)www\.", r"\1", url, flags=re.I)
     #urlparse needs a scheme to work right, so add one if it's missing
     parsed = urlparse(url if "://" in url else "http://" + url)
     ext = tldextract.extract(url)
@@ -72,11 +75,15 @@ def extract_url_features(url: str) -> dict:
     full_domain = ".".join(p for p in [ext.subdomain, ext.domain, ext.suffix] if p)
     host = parsed.netloc or full_domain
 
-    path_and_query = (parsed.path or "") + (("?" + parsed.query) if parsed.query else "")
+    #the query string is left out of the length, dots and path features. legit sites put long
+    #tracking and search parameters there (a google search url is ~150 chars) and the model
+    #read that as phishing. suspicious words are still looked for in the whole url
+    no_query = url.split("?")[0].split("#")[0]
+    path_only = parsed.path or ""
 
     features = {
-        "url_length": len(url),
-        "num_dots": url.count("."),
+        "url_length": len(no_query),
+        "num_dots": no_query.count("."),
         "num_hyphens": url.count("-"),
         "num_subdomains": max(len(ext.subdomain.split(".")), 1) if ext.subdomain else 0,
         #ip used instead of a real domain name is a big red flag, legit sites basically never do this
@@ -88,7 +95,7 @@ def extract_url_features(url: str) -> dict:
         "brand_edit_distance": min_brand_distance(domain.lower()),
         "suspicious_tld": 1 if ext.suffix in {"xyz", "top", "tk", "club", "info", "online", "site"} else 0,
         "domain_entropy": shannon_entropy(domain),
-        "path_length": len(path_and_query),
+        "path_length": len(path_only),
         "uses_https": 1 if parsed.scheme == "https" else 0,
     }
     return features

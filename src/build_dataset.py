@@ -7,6 +7,8 @@ from curated_legit_urls import LOGIN_URLS
 
 DATA_DIR = "data"
 N_SAMPLES_PER_CLASS = 300
+N_CRAWLED = 300
+N_BARE = 100
 
 
 def load_phishing_urls(path=f"{DATA_DIR}/openphish.txt"):
@@ -14,35 +16,36 @@ def load_phishing_urls(path=f"{DATA_DIR}/openphish.txt"):
         return [line.strip() for line in f if line.strip()]
 
 
-def load_legit_urls(path=f"{DATA_DIR}/top-1m.csv", n=N_SAMPLES_PER_CLASS):
-    #start with the curated real login pages, these have actual paths
-    #so the legit class isnt just bare homepages like before
+def load_legit_urls(path=f"{DATA_DIR}/top-1m.csv"):
+    #1. curated real login pages, these have actual paths
     legit = list(LOGIN_URLS)
 
-    #fill the rest with tranco homepages
-    remaining = n - len(legit)
+    #2. real urls crawled from top sites (src/collect_legit_urls.py): the homepage the way a
+    #browser lands on it (www, trailing slash) plus a few real internal links with paths and
+    #queries. before this the legit class was all bare domains, so the model learned
+    #"has www / a path / a query = phishing" and flagged normal browsing
+    with open(f"{DATA_DIR}/legit_crawled_train.txt") as f:
+        crawled = [l.strip() for l in f if l.strip()]
+    random.Random(42).shuffle(crawled)
+    legit += crawled[:N_CRAWLED]
+
+    #3. some bare tranco homepages, fixed seed so the dataset is the same every build
     domains = []
     with open(path) as f:
-        reader = csv.reader(f)
-        for rank, domain in reader:
+        for rank, domain in csv.reader(f):
             domains.append(domain)
-            #only read 5x what we need instead of the whole million row file, way faster
-            if len(domains) >= remaining * 5:
+            if len(domains) >= N_BARE * 5:
                 break
-
-    #fixed seed so re-running this script gives the exact same dataset every time
     random.seed(42)
-    sample = random.sample(domains, remaining)
-    legit += [f"https://{d}" for d in sample]
-
-    return legit
+    legit += [f"https://{d}" for d in random.sample(domains, N_BARE)]
+    return list(dict.fromkeys(legit))
 
 
 def main():
     phishing = load_phishing_urls()
-    #keep both classes the same size, openphish's free feed is capped around 300
-    #so this just makes sure we never ask for more legit urls than we have phishing ones
-    legit = load_legit_urls(n=min(N_SAMPLES_PER_CLASS, len(phishing)))
+    #legit is now bigger than phishing (openphish's free feed is capped around 300), train.py
+    #uses class_weight=balanced so the model still treats both classes as equally important
+    legit = load_legit_urls()
 
     #look up all the domain ages in parallel first, results land in data/whois_cache.json
     #so re-running this script (or adding features later) doesnt hit whois again

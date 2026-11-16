@@ -23,6 +23,10 @@
   "created": "2002-05-15",
   "status": "ok"
  },
+ "aaplimg.com": {
+  "created": "2013-05-21",
+  "status": "ok"
+ },
  "abovedomains.com": {
   "created": "2020-12-09",
   "status": "ok"
@@ -37,6 +41,10 @@
  },
  "addtoany.com": {
   "created": "2006-03-10",
+  "status": "ok"
+ },
+ "adnxs.com": {
+  "created": "2008-05-27",
   "status": "ok"
  },
  "adobe.com": {
@@ -59,8 +67,16 @@
   "created": "2000-11-29",
   "status": "ok"
  },
+ "adroll.com": {
+  "created": "2004-10-13",
+  "status": "ok"
+ },
  "adsrvr.org": {
   "created": "2010-03-29",
+  "status": "ok"
+ },
+ "adtelligent.com": {
+  "created": "2003-02-08",
   "status": "ok"
  },
  "agoda.com": {
@@ -83,8 +99,16 @@
   "created": "2014-03-18",
   "status": "ok"
  },
+ "alibaba.com": {
+  "created": "1999-04-15",
+  "status": "ok"
+ },
  "alipay.com": {
   "created": "2004-10-08",
+  "status": "ok"
+ },
+ "aliyun.com": {
+  "created": "2007-09-28",
   "status": "ok"
  },
  "aliyuncs.com": {
@@ -93,6 +117,10 @@
  },
  "allaboutcookies.org": {
   "created": "2008-06-20",
+  "status": "ok"
+ },
+ "alura.com.br": {
+  "created": "1999-04-27",
   "status": "ok"
  },
  "amazon.ca": {
@@ -131,6 +159,10 @@
   "created": "1995-04-11",
   "status": "ok"
  },
+ "aparat.com": {
+  "created": "2002-12-31",
+  "status": "ok"
+ },
  "apiwswhtasapp.homes": {
   "created": "2026-11-02",
   "status": "ok"
@@ -147,16 +179,32 @@
   "created": "1987-02-19",
   "status": "ok"
  },
+ "applovin.com": {
+  "created": "2011-07-01",
+  "status": "ok"
+ },
  "appsflyer.com": {
   "created": "2011-05-09",
+  "status": "ok"
+ },
+ "arxiv.org": {
+  "created": "1998-12-28",
   "status": "ok"
  },
  "astrumu.io": {
   "created": "2026-06-04",
   "status": "ok"
  },
+ "asurascans.com": {
+  "created": "2020-06-18",
+  "status": "ok"
+ },
  "atlassian.com": {
   "created": "2001-03-19",
+  "status": "ok"
+ },
+ "auone.jp": {
+  "created": "2007-03-08",
   "status": "ok"
  },
  "auth.re": {
@@ -179,6 +227,10 @@
   "created": "2015-10-05",
   "status": "ok"
  },
+ "ax-msedge.net": {
+  "created": "2024-03-06",
+  "status": "ok"
+ },
  "azure-dns.com": {
   "created": "2015-03-12",
   "status": "ok"
@@ -191,6 +243,10 @@
   "created": "2012-01-24",
   "status": "ok"
  },
+ "b-cdn.net": {
+  "created": "2016-04-25",
+  "status": "ok"
+ },
  "bankofamerica.com": {
   "created": "1998-12-28",
   "status": "ok"
@@ -199,12 +255,24 @@
   "created": "1989-07-15",
   "status": "ok"
  },
+ "beeline.ru": {
+  "created": "1997-08-12",
+  "status": "ok"
+ },
  "bestbuy.com": {
   "created": "1994-03-03",
   "status": "ok"
  },
+ "bfmtv.com": {
+  "created": "2004-11-15",
+  "status": "ok"
+ },
  "bhilo.xyz": {
   "created": "2026-10-30",
+  "status": "ok"
+ },
+ "bigcommerce.com": {
+  "created": "1999-02-08",
   "status": "ok"
  },
  "bit.ly": {
@@ -215,9 +283,17 @@
   "created": "1997-11-24",
   "status": "ok"
  },
+ "bitdefender.com": {
+  "created": "2001-06-08",
+  "status": "ok"
+ },
  "bjjizhuangxiang.com": {
   "created": "2025-12-10",
   "status": "ok"
+ },
+ "blog.google": {
+  "created": null,
+  "status": "no_date"
  },
  "blogspot.com": {
   "created": "2000-07-31",
@@ -235,13 +311,25 @@
   "created": "1998-04-17",
   "status": "ok"
  },
+ "branch.io": {
+  "created": "2011-11-10",
+  "status": "ok"
+ },
  "brave.com": {
   "created": "1995-09-18",
+  "status": "ok"
+ },
+ "browser-intake-datadoghq.com": {
+  "created": "2020-08-06",
   "status": "ok"
  },
  "bsky.app": {
   "created": null,
   "status": "no_date"
+ },
+ "bt.dk": {
+  "created": "1997-11-10",
+  "status": "ok"
  },
  "btloader.com": {
   "created": "2020-10-06",
@@ -263,8 +351,16 @@
   "created": "2019-05-14",
   "status": "ok"
  },
+ "ca.gov": {
+  "created": "1997-10-02",
+  "status": "ok"
+ },
  "caix-ltda.online": {
   "created": "2026-10-31",
+  "status": "ok"
+ },
+ "calculator.net": {
+  "created": "1998-07-06",
   "status": "ok"
  },
  "cambridge.org": {
@@ -273,6 +369,10 @@
  },
  "canada.ca": {
   "created": "2002-11-25",
+  "status": "ok"
+ },
+ "canva.com": {
+  "created": "2001-05-04",
   "status": "ok"
  },
  "capcut.com": {
@@ -291,12 +391,24 @@
   "created": "2018-09-10",
   "status": "ok"
  },
+ "cdninstagram.com": {
+  "created": "2014-05-01",
+  "status": "ok"
+ },
  "chase.com": {
   "created": "1995-10-11",
   "status": "ok"
  },
+ "chatgpt.com": {
+  "created": "2022-11-30",
+  "status": "ok"
+ },
  "chatgpt.site": {
   "created": "2022-12-01",
+  "status": "ok"
+ },
+ "checkpoint.com": {
+  "created": "1994-03-29",
   "status": "ok"
  },
  "clarity.ms": {
@@ -305,6 +417,10 @@
  },
  "classlink.com": {
   "created": "1998-01-30",
+  "status": "ok"
+ },
+ "clevelandclinic.org": {
+  "created": "1998-01-08",
   "status": "ok"
  },
  "clever.com": {
@@ -316,6 +432,10 @@
   "status": "ok"
  },
  "cloudflare.com": {
+  "created": "2009-02-17",
+  "status": "ok"
+ },
+ "cloudflare.net": {
   "created": "2009-02-17",
   "status": "ok"
  },
@@ -337,6 +457,14 @@
  },
  "cm.com": {
   "created": "2015-01-16",
+  "status": "ok"
+ },
+ "cnbc.com": {
+  "created": "1997-09-30",
+  "status": "ok"
+ },
+ "comcast.net": {
+  "created": "1997-09-25",
   "status": "ok"
  },
  "communityartsections.com": {
@@ -363,12 +491,24 @@
   "created": "2012-01-12",
   "status": "ok"
  },
+ "cpmstar.com": {
+  "created": "2004-08-22",
+  "status": "ok"
+ },
  "craftum.io": {
   "created": "2021-04-07",
   "status": "ok"
  },
  "craigslist.org": {
   "created": "1997-09-11",
+  "status": "ok"
+ },
+ "creativecommons.org": {
+  "created": "2001-01-15",
+  "status": "ok"
+ },
+ "criteo.com": {
+  "created": "2005-06-17",
   "status": "ok"
  },
  "cspserver.net": {
@@ -383,6 +523,14 @@
   "created": "2023-04-05",
   "status": "ok"
  },
+ "dailymail.com": {
+  "created": "1996-02-20",
+  "status": "ok"
+ },
+ "dailymotion.com": {
+  "created": "2005-03-15",
+  "status": "ok"
+ },
  "dashnxdomain.net": {
   "created": "2013-02-06",
   "status": "ok"
@@ -395,8 +543,20 @@
   "created": "1999-03-10",
   "status": "ok"
  },
+ "dell.com": {
+  "created": "1988-11-22",
+  "status": "ok"
+ },
+ "deloitte.com": {
+  "created": "1995-04-20",
+  "status": "ok"
+ },
  "digitalocean.com": {
   "created": "2000-04-12",
+  "status": "ok"
+ },
+ "discord.com": {
+  "created": "2000-11-06",
   "status": "ok"
  },
  "discord.gg": {
@@ -411,8 +571,16 @@
   "created": "2000-03-23",
   "status": "ok"
  },
+ "disqus.com": {
+  "created": "2006-12-07",
+  "status": "ok"
+ },
  "dnse1.com": {
   "created": "2022-07-08",
+  "status": "ok"
+ },
+ "dnsmadeeasy.com": {
+  "created": "2001-02-19",
   "status": "ok"
  },
  "dnsowl.com": {
@@ -421,6 +589,10 @@
  },
  "dnspod.net": {
   "created": "2006-03-23",
+  "status": "ok"
+ },
+ "docker.com": {
+  "created": "1995-01-25",
   "status": "ok"
  },
  "docomo.ne.jp": {
@@ -435,8 +607,16 @@
   "created": "1999-01-19",
   "status": "ok"
  },
+ "doubleclick.net": {
+  "created": "1996-01-16",
+  "status": "ok"
+ },
  "douyincdn.com": {
   "created": "2017-12-12",
+  "status": "ok"
+ },
+ "dreamhost.com": {
+  "created": "1997-09-22",
   "status": "ok"
  },
  "dropbox.com": {
@@ -455,6 +635,10 @@
   "created": "2010-01-26",
   "status": "ok"
  },
+ "dynatrace.com": {
+  "created": "2004-12-23",
+  "status": "ok"
+ },
  "e2ro.com": {
   "created": "2015-05-26",
   "status": "ok"
@@ -462,6 +646,10 @@
  "ea.com": {
   "created": "1993-04-14",
   "status": "ok"
+ },
+ "easytrader.ir": {
+  "created": null,
+  "status": "no_date"
  },
  "ebay.com": {
   "created": "1995-08-04",
@@ -473,6 +661,10 @@
  },
  "elpais.com": {
   "created": "2001-03-05",
+  "status": "ok"
+ },
+ "elsevier.com": {
+  "created": "1993-07-02",
   "status": "ok"
  },
  "enterkaitaelleme.sbs": {
@@ -507,6 +699,18 @@
   "created": "1995-08-14",
   "status": "ok"
  },
+ "expireddomains.com": {
+  "created": "1999-11-10",
+  "status": "ok"
+ },
+ "ey43.com": {
+  "created": "2021-03-23",
+  "status": "ok"
+ },
+ "ezviz7.com": {
+  "created": "2014-01-13",
+  "status": "ok"
+ },
  "facebook.com": {
   "created": "1997-03-29",
   "status": "ok"
@@ -515,16 +719,44 @@
   "created": "2004-04-01",
   "status": "ok"
  },
+ "fandom.com": {
+  "created": "1996-10-11",
+  "status": "ok"
+ },
+ "fastcompany.com": {
+  "created": "1995-06-02",
+  "status": "ok"
+ },
+ "fastdl.app": {
+  "created": null,
+  "status": "no_date"
+ },
  "fetlife.com": {
   "created": "2008-01-01",
+  "status": "ok"
+ },
+ "fidelity.com": {
+  "created": "1996-08-31",
+  "status": "ok"
+ },
+ "filmweb.pl": {
+  "created": "1998-01-12",
   "status": "ok"
  },
  "finn.no": {
   "created": "1999-11-15",
   "status": "ok"
  },
+ "firefox.com": {
+  "created": "1998-10-06",
+  "status": "ok"
+ },
  "fiverr.com": {
   "created": "2009-12-08",
+  "status": "ok"
+ },
+ "flurry.com": {
+  "created": "1998-05-04",
   "status": "ok"
  },
  "forbes.com": {
@@ -537,6 +769,14 @@
  },
  "forter.com": {
   "created": "2001-01-25",
+  "status": "ok"
+ },
+ "fortune.com": {
+  "created": "1994-06-02",
+  "status": "ok"
+ },
+ "freebsd.org": {
+  "created": "1994-09-19",
   "status": "ok"
  },
  "ft.com": {
@@ -561,6 +801,10 @@
  },
  "gandi.net": {
   "created": "1999-05-21",
+  "status": "ok"
+ },
+ "gazzetta.it": {
+  "created": "1996-01-29",
   "status": "ok"
  },
  "gcdn.co": {
@@ -599,6 +843,14 @@
   "created": "2012-12-02",
   "status": "ok"
  },
+ "goodreads.com": {
+  "created": "2002-12-09",
+  "status": "ok"
+ },
+ "google-analytics.com": {
+  "created": "2005-07-18",
+  "status": "ok"
+ },
  "google.co.jp": {
   "created": "2001-03-22",
   "status": "ok"
@@ -607,8 +859,16 @@
   "created": "1997-09-15",
   "status": "ok"
  },
+ "googlesyndication.com": {
+  "created": "2003-01-21",
+  "status": "ok"
+ },
  "googletagmanager.com": {
   "created": "2011-11-11",
+  "status": "ok"
+ },
+ "googleusercontent.com": {
+  "created": "2008-11-17",
   "status": "ok"
  },
  "grammarly.com": {
@@ -635,12 +895,32 @@
   "created": "2008-03-03",
   "status": "ok"
  },
+ "haberler.com": {
+  "created": "1999-03-28",
+  "status": "ok"
+ },
  "hameem.net": {
   "created": "2020-12-02",
   "status": "ok"
  },
+ "harvard.edu": {
+  "created": null,
+  "status": "no_date"
+ },
  "hbomax.com": {
   "created": "2000-02-18",
+  "status": "ok"
+ },
+ "hetzner.com": {
+  "created": "1997-01-15",
+  "status": "ok"
+ },
+ "hicloudcam.com": {
+  "created": "2014-06-27",
+  "status": "ok"
+ },
+ "hln.be": {
+  "created": "1999-03-11",
   "status": "ok"
  },
  "hm.com": {
@@ -651,12 +931,32 @@
   "created": "1997-12-05",
   "status": "ok"
  },
+ "hostgator.com": {
+  "created": "2002-10-22",
+  "status": "ok"
+ },
+ "hostinger.com": {
+  "created": "2002-11-23",
+  "status": "ok"
+ },
  "hotmail.com": {
   "created": "1996-03-27",
   "status": "ok"
  },
  "hotpepper.jp": {
   "created": "2003-02-06",
+  "status": "ok"
+ },
+ "hp.com": {
+  "created": "1986-03-03",
+  "status": "ok"
+ },
+ "huffpost.com": {
+  "created": "2005-03-10",
+  "status": "ok"
+ },
+ "huggingface.co": {
+  "created": "2016-07-18",
   "status": "ok"
  },
  "hulu.com": {
@@ -683,12 +983,24 @@
   "created": "1995-07-29",
   "status": "ok"
  },
+ "ilmeteo.it": {
+  "created": "2000-11-28",
+  "status": "ok"
+ },
+ "iltalehti.fi": {
+  "created": "1991-01-01",
+  "status": "ok"
+ },
  "imdb.com": {
   "created": "1996-01-05",
   "status": "ok"
  },
  "imgsmail.ru": {
   "created": "2008-11-20",
+  "status": "ok"
+ },
+ "imgsrc.ru": {
+  "created": "2005-04-14",
   "status": "ok"
  },
  "impervadns.net": {
@@ -715,6 +1027,10 @@
   "created": "2004-06-04",
   "status": "ok"
  },
+ "intercom.com": {
+  "created": "1993-12-14",
+  "status": "ok"
+ },
  "internationaldatasystems.ca": {
   "created": "2022-05-25",
   "status": "ok"
@@ -727,8 +1043,20 @@
   "created": null,
   "status": "no_date"
  },
+ "ip-api.com": {
+  "created": "2012-04-24",
+  "status": "ok"
+ },
  "ipify.org": {
   "created": "2014-01-05",
+  "status": "ok"
+ },
+ "iqiyi.com": {
+  "created": "2010-07-11",
+  "status": "ok"
+ },
+ "issuu.com": {
+  "created": "2007-04-19",
   "status": "ok"
  },
  "it.com": {
@@ -739,8 +1067,28 @@
   "created": "2005-06-13",
   "status": "ok"
  },
+ "ixl.com": {
+  "created": "1995-02-27",
+  "status": "ok"
+ },
+ "jalan.net": {
+  "created": "1999-01-05",
+  "status": "ok"
+ },
  "jasejournals.com": {
   "created": "2025-11-25",
+  "status": "ok"
+ },
+ "jetbrains.com": {
+  "created": "2001-11-09",
+  "status": "ok"
+ },
+ "jquery.com": {
+  "created": "2005-12-10",
+  "status": "ok"
+ },
+ "jsdelivr.net": {
+  "created": "2012-05-16",
   "status": "ok"
  },
  "julianocampestre.com.br": {
@@ -751,8 +1099,16 @@
   "created": "2026-10-28",
   "status": "ok"
  },
+ "kick.com": {
+  "created": "1995-05-01",
+  "status": "ok"
+ },
  "kontur.ru": {
   "created": "1997-10-08",
+  "status": "ok"
+ },
+ "kooora.com": {
+  "created": "2002-09-01",
   "status": "ok"
  },
  "kueezrtb.com": {
@@ -771,12 +1127,28 @@
   "created": "2004-01-26",
   "status": "ok"
  },
+ "lefigaro.fr": {
+  "created": "1996-08-13",
+  "status": "ok"
+ },
  "lencr.org": {
   "created": "2020-06-29",
   "status": "ok"
  },
+ "lichess.org": {
+  "created": "2010-06-14",
+  "status": "ok"
+ },
  "linkedin.com": {
   "created": "2002-11-02",
+  "status": "ok"
+ },
+ "linkmake.in": {
+  "created": "2023-01-25",
+  "status": "ok"
+ },
+ "live-video.net": {
+  "created": "2019-07-25",
   "status": "ok"
  },
  "live.com": {
@@ -787,6 +1159,10 @@
   "created": "2017-02-01",
   "status": "ok"
  },
+ "lwsdns.com": {
+  "created": "2007-01-05",
+  "status": "ok"
+ },
  "macromedia.com": {
   "created": "1993-05-13",
   "status": "ok"
@@ -795,8 +1171,20 @@
   "created": "2001-06-29",
   "status": "ok"
  },
+ "matterport.com": {
+  "created": "2011-06-09",
+  "status": "ok"
+ },
  "max.com": {
   "created": "1992-12-01",
+  "status": "ok"
+ },
+ "media.net": {
+  "created": "1998-03-17",
+  "status": "ok"
+ },
+ "mediatek.com": {
+  "created": "2001-09-03",
   "status": "ok"
  },
  "medium.com": {
@@ -827,9 +1215,21 @@
   "created": null,
   "status": "no_date"
  },
+ "mobiledokan.com": {
+  "created": "2013-02-19",
+  "status": "ok"
+ },
+ "moengage.com": {
+  "created": "2014-04-19",
+  "status": "ok"
+ },
  "msn.com": {
   "created": "1994-11-10",
   "status": "ok"
+ },
+ "musicdel.ir": {
+  "created": null,
+  "status": "no_date"
  },
  "mybluehost.me": {
   "created": "2016-10-05",
@@ -851,6 +1251,14 @@
   "created": "1994-08-11",
   "status": "ok"
  },
+ "naver.com": {
+  "created": "1997-09-12",
+  "status": "ok"
+ },
+ "netangels.ru": {
+  "created": "2003-12-01",
+  "status": "ok"
+ },
  "netflix.com": {
   "created": "1997-11-11",
   "status": "ok"
@@ -859,16 +1267,52 @@
   "created": null,
   "status": "no_date"
  },
+ "newsweek.com": {
+  "created": "1994-05-17",
+  "status": "ok"
+ },
+ "nexon.com": {
+  "created": "1996-03-28",
+  "status": "ok"
+ },
  "nextcloud.com": {
   "created": "2005-02-22",
+  "status": "ok"
+ },
+ "nflximg.com": {
+  "created": "2004-07-01",
   "status": "ok"
  },
  "nflxso.net": {
   "created": "2016-03-25",
   "status": "ok"
  },
+ "nih.gov": {
+  "created": "1997-10-02",
+  "status": "ok"
+ },
+ "nikkansports.com": {
+  "created": "1996-08-26",
+  "status": "ok"
+ },
  "nikkei.com": {
   "created": "1995-05-09",
+  "status": "ok"
+ },
+ "ninisite.com": {
+  "created": "2005-06-09",
+  "status": "ok"
+ },
+ "notion.com": {
+  "created": "1997-10-06",
+  "status": "ok"
+ },
+ "office.net": {
+  "created": "1994-11-14",
+  "status": "ok"
+ },
+ "ok.ru": {
+  "created": "1998-11-03",
   "status": "ok"
  },
  "okcdn.ru": {
@@ -879,12 +1323,32 @@
   "created": "2004-06-11",
   "status": "ok"
  },
+ "omtrdc.net": {
+  "created": "2008-07-23",
+  "status": "ok"
+ },
+ "onelink.me": {
+  "created": "2014-11-26",
+  "status": "ok"
+ },
  "oneme.ru": {
   "created": "2023-10-28",
   "status": "ok"
  },
+ "onetag-sys.com": {
+  "created": "2015-04-05",
+  "status": "ok"
+ },
+ "onetrust.com": {
+  "created": "2004-01-12",
+  "status": "ok"
+ },
  "onoriki-meibokuten.com": {
   "created": "2023-11-23",
+  "status": "ok"
+ },
+ "opendns.com": {
+  "created": "2003-09-04",
   "status": "ok"
  },
  "orontescoffee.xyz": {
@@ -894,6 +1358,10 @@
  "otto.de": {
   "created": null,
   "status": "no_date"
+ },
+ "outlook.com": {
+  "created": "1994-08-18",
+  "status": "ok"
  },
  "ovhcloud.com": {
   "created": "2011-11-24",
@@ -915,12 +1383,24 @@
   "created": "2013-12-24",
   "status": "ok"
  },
+ "paloaltonetworks.com": {
+  "created": "2005-02-21",
+  "status": "ok"
+ },
+ "patreon.com": {
+  "created": "2013-02-27",
+  "status": "ok"
+ },
  "paypa1-secure-login.xyz": {
   "created": null,
   "status": "no_date"
  },
  "paypal.com": {
   "created": "1999-07-15",
+  "status": "ok"
+ },
+ "pbs.org": {
+  "created": "1995-04-19",
   "status": "ok"
  },
  "pdfxa.top": {
@@ -939,12 +1419,20 @@
   "created": "2022-07-08",
   "status": "ok"
  },
+ "piccoma.com": {
+  "created": "2015-11-25",
+  "status": "ok"
+ },
  "pikabu.ru": {
   "created": "2009-04-03",
   "status": "ok"
  },
  "pinterest.com": {
   "created": "2009-11-26",
+  "status": "ok"
+ },
+ "pixabay.com": {
+  "created": "2010-10-07",
   "status": "ok"
  },
  "playstation.com": {
@@ -955,6 +1443,18 @@
   "created": "2000-02-08",
   "status": "ok"
  },
+ "plesk.com": {
+  "created": "1999-06-13",
+  "status": "ok"
+ },
+ "plex.direct": {
+  "created": null,
+  "status": "no_date"
+ },
+ "poki.com": {
+  "created": "2001-04-18",
+  "status": "ok"
+ },
  "pornpics.com": {
   "created": "1996-04-03",
   "status": "ok"
@@ -963,8 +1463,20 @@
   "created": "1996-10-22",
   "status": "ok"
  },
+ "programme-tv.net": {
+  "created": "2002-10-06",
+  "status": "ok"
+ },
+ "pubmatic.com": {
+  "created": "2006-12-29",
+  "status": "ok"
+ },
  "px-cloud.net": {
   "created": "2019-03-31",
+  "status": "ok"
+ },
+ "python.org": {
+  "created": "1995-03-27",
   "status": "ok"
  },
  "quora.com": {
@@ -999,8 +1511,16 @@
   "created": null,
   "status": "no_date"
  },
+ "reuters.com": {
+  "created": "1993-06-03",
+  "status": "ok"
+ },
  "rfc-editor.org": {
   "created": "1998-05-15",
+  "status": "ok"
+ },
+ "riotgames.com": {
+  "created": "2004-11-12",
   "status": "ok"
  },
  "roblox.com.ml": {
@@ -1043,8 +1563,16 @@
   "created": null,
   "status": "no_date"
  },
+ "run.app": {
+  "created": null,
+  "status": "no_date"
+ },
  "rutube.ru": {
   "created": "2006-10-10",
+  "status": "ok"
+ },
+ "ryanair.com": {
+  "created": "1996-07-12",
   "status": "ok"
  },
  "s4w.in": {
@@ -1059,12 +1587,52 @@
   "created": "2020-09-14",
   "status": "ok"
  },
+ "sarkariresult.com.cm": {
+  "created": "2023-03-29",
+  "status": "ok"
+ },
+ "satta-king-fast.com": {
+  "created": "2018-02-24",
+  "status": "ok"
+ },
+ "scdn.co": {
+  "created": "2010-08-20",
+  "status": "ok"
+ },
+ "sciencedirect.com": {
+  "created": "1997-03-12",
+  "status": "ok"
+ },
+ "screenconnect.com": {
+  "created": "2004-10-27",
+  "status": "ok"
+ },
+ "screener.in": {
+  "created": "2009-11-06",
+  "status": "ok"
+ },
  "scursallvirtlll.lat": {
   "created": "2026-11-01",
   "status": "ok"
  },
+ "sentry.io": {
+  "created": "2012-04-07",
+  "status": "ok"
+ },
+ "sexmupxinh.net": {
+  "created": "2025-08-25",
+  "status": "ok"
+ },
+ "sexnyk.com": {
+  "created": "2024-03-09",
+  "status": "ok"
+ },
  "sfx.ms": {
   "created": "2012-09-07",
+  "status": "ok"
+ },
+ "shodan.io": {
+  "created": "2012-08-22",
   "status": "ok"
  },
  "shop.app": {
@@ -1095,6 +1663,10 @@
   "created": "2004-05-06",
   "status": "ok"
  },
+ "skybridge.click": {
+  "created": "2025-04-29",
+  "status": "ok"
+ },
  "skylanai.com": {
   "created": "2026-08-26",
   "status": "ok"
@@ -1109,6 +1681,14 @@
  },
  "smilewanted.com": {
   "created": "2015-10-05",
+  "status": "ok"
+ },
+ "sohu.com": {
+  "created": "1998-07-05",
+  "status": "ok"
+ },
+ "spamhaus.org": {
+  "created": "1999-10-01",
   "status": "ok"
  },
  "speedtest.net": {
@@ -1131,12 +1711,24 @@
   "created": "2006-04-23",
   "status": "ok"
  },
+ "springer.com": {
+  "created": "1997-05-29",
+  "status": "ok"
+ },
  "square.site": {
   "created": "2019-02-05",
   "status": "ok"
  },
+ "squarespace.com": {
+  "created": "2003-03-25",
+  "status": "ok"
+ },
  "sslhe.com": {
   "created": "2025-11-11",
+  "status": "ok"
+ },
+ "staseraintv.com": {
+  "created": "2009-01-27",
   "status": "ok"
  },
  "statista.com": {
@@ -1159,6 +1751,10 @@
   "created": "2008-06-12",
   "status": "ok"
  },
+ "substack.com": {
+  "created": "2010-04-27",
+  "status": "ok"
+ },
  "support-micrsoft.com": {
   "created": "2026-06-24",
   "status": "ok"
@@ -1171,12 +1767,24 @@
   "created": null,
   "status": "no_date"
  },
+ "tagesschau.de": {
+  "created": null,
+  "status": "no_date"
+ },
+ "tagomi.com": {
+  "created": "2016-05-29",
+  "status": "ok"
+ },
  "tailscale.com": {
   "created": "2017-08-15",
   "status": "ok"
  },
  "target.com": {
   "created": "1997-01-02",
+  "status": "ok"
+ },
+ "tawk.to": {
+  "created": "2012-07-11",
   "status": "ok"
  },
  "tbcache.com": {
@@ -1186,6 +1794,14 @@
  "tcyungo.com": {
   "created": "2026-01-07",
   "status": "ok"
+ },
+ "teamviewer.com": {
+  "created": "2004-09-21",
+  "status": "ok"
+ },
+ "telefonica.de": {
+  "created": null,
+  "status": "no_date"
  },
  "telekom.de": {
   "created": null,
@@ -1203,6 +1819,18 @@
   "created": "1998-09-14",
   "status": "ok"
  },
+ "tgju.org": {
+  "created": "2011-12-29",
+  "status": "ok"
+ },
+ "themeforest.net": {
+  "created": "2007-11-27",
+  "status": "ok"
+ },
+ "therapservices.net": {
+  "created": "2003-01-09",
+  "status": "ok"
+ },
  "theverge.com": {
   "created": "1998-11-11",
   "status": "ok"
@@ -1211,12 +1839,28 @@
   "created": null,
   "status": "no_date"
  },
+ "ticketmaster.com": {
+  "created": "1994-01-06",
+  "status": "ok"
+ },
+ "tiktokcdn-us.com": {
+  "created": "2021-08-18",
+  "status": "ok"
+ },
  "tiktokpangle.us": {
   "created": "2024-11-04",
   "status": "ok"
  },
+ "tiktokv.com": {
+  "created": "2017-09-20",
+  "status": "ok"
+ },
  "time.com": {
   "created": "1993-11-19",
+  "status": "ok"
+ },
+ "tm-azurefd.net": {
+  "created": "2024-05-07",
   "status": "ok"
  },
  "tokemim-cdn9-hk18.lol": {
@@ -1243,6 +1887,10 @@
   "created": "2010-07-04",
   "status": "ok"
  },
+ "trafficmanager.net": {
+  "created": "2005-11-25",
+  "status": "ok"
+ },
  "transsion-os.com": {
   "created": "2022-06-15",
   "status": "ok"
@@ -1253,6 +1901,14 @@
  },
  "trello.com": {
   "created": "2004-08-20",
+  "status": "ok"
+ },
+ "triplinkintl.com": {
+  "created": "2021-04-21",
+  "status": "ok"
+ },
+ "ttdns2.com": {
+  "created": "2021-09-01",
   "status": "ok"
  },
  "tubi.io": {
@@ -1271,6 +1927,10 @@
   "created": "2009-06-08",
   "status": "ok"
  },
+ "twitter.com": {
+  "created": "2000-01-21",
+  "status": "ok"
+ },
  "typeform.com": {
   "created": "2002-06-20",
   "status": "ok"
@@ -1279,16 +1939,32 @@
   "created": "1995-07-14",
   "status": "ok"
  },
+ "ucsd.edu": {
+  "created": null,
+  "status": "no_date"
+ },
  "udemy.com": {
   "created": "2009-08-13",
+  "status": "ok"
+ },
+ "ui.com": {
+  "created": "1995-04-17",
   "status": "ok"
  },
  "umich.edu": {
   "created": null,
   "status": "no_date"
  },
+ "unesco.org": {
+  "created": "1994-03-01",
+  "status": "ok"
+ },
  "uneuy.top": {
   "created": "2026-10-31",
+  "status": "ok"
+ },
+ "unrulymedia.com": {
+  "created": "2006-06-14",
   "status": "ok"
  },
  "urlz.li": {
@@ -1297,6 +1973,10 @@
  },
  "ushino-nakayama.com": {
   "created": "2024-06-23",
+  "status": "ok"
+ },
+ "va.gov": {
+  "created": "1997-10-02",
   "status": "ok"
  },
  "vedcdnlb.com": {
@@ -1311,6 +1991,10 @@
   "created": "2013-11-05",
   "status": "ok"
  },
+ "vercel-dns-017.com": {
+  "created": "2025-01-31",
+  "status": "ok"
+ },
  "vercel.app": {
   "created": null,
   "status": "no_date"
@@ -1319,16 +2003,40 @@
   "created": "2015-07-17",
   "status": "ok"
  },
+ "verisign.com": {
+  "created": "1995-06-02",
+  "status": "ok"
+ },
  "vg.no": {
   "created": "2011-06-10",
   "status": "ok"
+ },
+ "vice.com": {
+  "created": "1997-05-28",
+  "status": "ok"
+ },
+ "videeyss.shop": {
+  "created": null,
+  "status": "no_date"
  },
  "vivo.com.cn": {
   "created": "2010-01-28",
   "status": "ok"
  },
+ "vk.ru": {
+  "created": "1999-06-18",
+  "status": "ok"
+ },
  "vkuser.net": {
   "created": "2017-04-26",
+  "status": "ok"
+ },
+ "vungle.com": {
+  "created": "2010-10-26",
+  "status": "ok"
+ },
+ "wa.me": {
+  "created": "2009-07-24",
   "status": "ok"
  },
  "walmart.com": {
@@ -1351,8 +2059,16 @@
   "created": "2006-07-17",
   "status": "ok"
  },
+ "waze.com": {
+  "created": "2000-04-01",
+  "status": "ok"
+ },
  "wbktm.xyz": {
   "created": "2026-10-31",
+  "status": "ok"
+ },
+ "weather.com": {
+  "created": "1994-08-09",
   "status": "ok"
  },
  "webgvt.com": {
@@ -1361,6 +2077,10 @@
  },
  "webzxkfa.com": {
   "created": "2026-11-01",
+  "status": "ok"
+ },
+ "weebly.com": {
+  "created": "2006-03-29",
   "status": "ok"
  },
  "wellsfargo.com": {
@@ -1391,8 +2111,16 @@
   "created": "1997-07-22",
   "status": "ok"
  },
+ "wisc.edu": {
+  "created": null,
+  "status": "no_date"
+ },
  "wise.com": {
   "created": "1994-03-07",
+  "status": "ok"
+ },
+ "wixsite.com": {
+  "created": "2012-05-08",
   "status": "ok"
  },
  "wordpress.com": {
@@ -1401,6 +2129,10 @@
  },
  "wordpress.org": {
   "created": "2003-03-28",
+  "status": "ok"
+ },
+ "wordwall.net": {
+  "created": "2015-07-25",
   "status": "ok"
  },
  "workers.dev": {
@@ -1423,6 +2155,14 @@
   "created": "2023-04-21",
   "status": "ok"
  },
+ "www.gob.mx": {
+  "created": "2002-03-01",
+  "status": "ok"
+ },
+ "www.gov.br": {
+  "created": "2014-01-22",
+  "status": "ok"
+ },
  "x.com": {
   "created": "1993-04-02",
   "status": "ok"
@@ -1435,6 +2175,10 @@
   "created": "2020-11-13",
   "status": "ok"
  },
+ "xn--42cf7cgd7gxbd4m7c.cc": {
+  "created": "2026-05-17",
+  "status": "ok"
+ },
  "yahoo.com": {
   "created": "1995-01-18",
   "status": "ok"
@@ -1445,6 +2189,14 @@
  },
  "yfuma.xyz": {
   "created": "2026-11-02",
+  "status": "ok"
+ },
+ "youronlinechoices.com": {
+  "created": "2009-02-20",
+  "status": "ok"
+ },
+ "zedge.net": {
+  "created": "2003-01-09",
   "status": "ok"
  },
  "zendesk.com": {
@@ -1461,6 +2213,10 @@
  },
  "zijieapi.com": {
   "created": "2020-09-17",
+  "status": "ok"
+ },
+ "zoho.com": {
+  "created": "2004-01-16",
   "status": "ok"
  },
  "zoom.com": {
