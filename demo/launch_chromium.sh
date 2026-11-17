@@ -6,4 +6,4 @@ BROWSER=$(command -v google-chrome || command -v chromium || command -v chromium
 [ -z "$BROWSER" ] && { echo "no chrome or chromium found"; exit 1; }
 exec "$BROWSER" --user-data-dir=/tmp/phish-demo-profile \
   --disable-extensions-except="$PWD/extension" --load-extension="$PWD/extension" \
-  http://localhost:8000/login.html
+  http://paypal-secure-login.verify-account.localhost:8000/login.html
