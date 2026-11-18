@@ -60,9 +60,9 @@ and the content features did not help enough in the experiment.
 
 **How the product handles this.** The verdict has three levels: LEGITIMATE below 0.5, SUSPICIOUS from 0.5 to 0.7
 (shown in the popup, page not blocked), PHISHING at 0.7 and up (warning page). The 0.7 cut-off was chosen from
-grouped CV on training data, not from the fresh set. The backend also skips the model for the 2000 most popular
-sites (shared hosting platforms such as `github.io`, `pages.dev` and `blogspot.com` are excluded, so they are
-always scored), since a URL model that flags a Google search is unusable in a browser. This is a pragmatic layer,
+grouped CV on training data, not from the fresh set. The backend also skips the model for the 20000 most popular
+sites (shared hosting platforms such as `github.io`, `pages.dev` and `blogspot.com`, and any domain that appears
+in the phishing feeds, are excluded, so they are always scored), since a URL model that flags a Google search is unusable in a browser. This is a pragmatic layer,
 and it hides model errors on big sites, so the model numbers above are measured without it.
 
 **Not a new-domain detector.** Domain age is not used by the model (it was dropped), so a recently registered

@@ -28,7 +28,13 @@ function show(r) {
 
 async function activeUrl() {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  const url = tab && tab.url;
+  let url = tab && tab.url;
+  //on our own warning page the real url is in the ?u= parameter, so scanning from there
+  //checks the flagged site and not the extension page
+  const warn = chrome.runtime.getURL("warning.html");
+  if (url && url.startsWith(warn)) {
+    url = new URL(url).searchParams.get("u");
+  }
   document.getElementById("url").textContent = url || "";
   return url && /^https?:\/\//.test(url) ? url : null;
 }
